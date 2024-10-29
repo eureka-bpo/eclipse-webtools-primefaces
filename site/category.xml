@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+     <feature id="eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.feature"><category name="jsf"/></feature>
+     <feature id="eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.feature.source"/>
+
+     <bundle id="eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport"/>
+     <bundle id="eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.source"/>
+
+    <category-def name="jsf" label="Web Tools Platform (WTP) Java Server Faces">
+        <description>Java Server Faces plugins shared by WTP features</description>
+    </category-def>
+</site>

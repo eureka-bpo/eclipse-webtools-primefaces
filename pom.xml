@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse</groupId>
+    <artifactId>wtp-parent</artifactId>
+    <version>3.10.0-SNAPSHOT</version>
+    <relativePath>../wtp-parent</relativePath>
+  </parent>
+
+  <groupId>eu.eureka-bpo.eclipse</groupId>
+  <artifactId>eu.eureka-bpo.eclipse.webtools.primefaces</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/jsf/webtools.jsf.git</tycho.scmUrl>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>webtools-common-site</id>
+      <layout>p2</layout>
+      <url>${webtools-common-site}</url>
+    </repository>
+    <repository>
+      <id>webtools-servertools-site</id>
+      <layout>p2</layout>
+      <url>${webtools-servertools-site}</url>
+    </repository>
+    <repository>
+      <id>webtools-sourceediting-site</id>
+      <layout>p2</layout>
+      <url>${webtools-sourceediting-site}</url>
+    </repository>
+    <repository>
+      <id>webtools-jsdt-site</id>
+      <layout>p2</layout>
+      <url>${webtools-jsdt-site}</url>
+    </repository>
+    <repository>
+      <id>webtools-jeetools-site</id>
+      <layout>p2</layout>
+      <url>${webtools-jeetools-site}</url>
+    </repository>
+
+    <!-- To reference parent pom -->
+    <repository>
+      <id>Webtools Repository - Releases</id>
+      <name>Webtools Repository - Releases</name>
+      <url>https://repo.eclipse.org/content/repositories/webtools-releases/</url>
+    </repository>
+    <repository>
+      <id>Webtools Repository - Snapshots</id>
+      <name>Webtools Repository - Snapshots</name>
+      <url>https://repo.eclipse.org/content/repositories/webtools-snapshots/</url>
+    </repository>
+  </repositories>
+
+  <modules>
+     <module>features/tagsupport.feature</module>
+     <module>plugins/tagsupport</module>
+     <module>site</module>
+  </modules>
+</project>
