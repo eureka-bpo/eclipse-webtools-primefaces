@@ -3761,6 +3761,17 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">startsWith</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>startsWith</item>
+          <item>contains</item>
+          <item>endsWith</item>
+          <item>custom</item>
+        </value>
+      </trait>
     </entity>
     <entity id="filterPosition">
       <trait id="attribute-value-runtime-type">
@@ -4064,6 +4075,17 @@
     <entity id="filterMatchMode">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">startsWith</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>startsWith</item>
+          <item>contains</item>
+          <item>endsWith</item>
+          <item>custom</item>
+        </value>
       </trait>
     </entity>
     <entity id="filterPosition">
@@ -5259,6 +5281,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">both</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+        </value>
+      </trait>
     </entity>
     <entity id="paginatorAlwaysVisible">
       <trait id="attribute-value-runtime-type">
@@ -5451,6 +5480,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">both</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+        </value>
       </trait>
     </entity>
     <entity id="paginatorAlwaysVisible">
@@ -5715,6 +5751,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">both</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+        </value>
       </trait>
     </entity>
     <entity id="paginatorAlwaysVisible">
@@ -5983,6 +6026,7 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>new</item>
+          <item>add</item>
           <item>none</item>
         </value>
       </trait>
@@ -6389,6 +6433,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">both</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+        </value>
       </trait>
     </entity>
     <entity id="paginatorAlwaysVisible">
@@ -18430,7 +18481,15 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:StringValue">Match mode for filtering, valid values are startsWith (default), contains, endsWith and custom.</value>
+        <value xsi:type="mdt:StringValue">startsWith</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>startsWith</item>
+          <item>contains</item>
+          <item>endsWith</item>
+          <item>custom</item>
+        </value>
       </trait>
     </entity>
     <entity id="filterFunction">
@@ -20423,6 +20482,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">self</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>self</item>
+          <item>parent</item>
+          <item>ancestor</item>
+        </value>
+      </trait>
     </entity>
     <entity id="dropRestrict">
       <trait id="attribute-value-runtime-type">
@@ -20486,6 +20552,17 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">startsWith</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>startsWith</item>
+          <item>contains</item>
+          <item>endsWith</item>
+          <item>custom</item>
+        </value>
+      </trait>
     </entity>
     <entity id="filterEvent">
       <trait id="attribute-value-runtime-type">
@@ -20524,6 +20601,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">move</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>move</item>
+          <item>copy</item>
+        </value>
       </trait>
     </entity>
     <entity id="onDrop">
@@ -20849,6 +20932,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">both</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+        </value>
       </trait>
     </entity>
     <entity id="paginatorAlwaysVisible">
