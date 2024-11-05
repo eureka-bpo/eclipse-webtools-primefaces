@@ -776,6 +776,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -1375,6 +1381,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
@@ -1919,6 +1931,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -2497,6 +2515,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">smart</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>lenient</item>
+          <item>smart</item>
+          <item>strict</item>
+        </value>
+      </trait>
     </entity>
     <entity id="touchable">
       <trait id="attribute-value-runtime-type">
@@ -2930,6 +2955,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -3350,6 +3381,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -8153,6 +8190,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
@@ -9088,6 +9131,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -9430,6 +9479,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -9995,6 +10050,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -10322,6 +10383,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -10686,6 +10753,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -13724,6 +13797,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -17839,6 +17918,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -19928,6 +20013,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">flip</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>cap</item>
+          <item>flip</item>
+          <item>none</item>
+        </value>
+      </trait>
     </entity>
     <entity id="tooltipDelay">
       <trait id="attribute-value-runtime-type">
@@ -20623,7 +20715,7 @@
       </trait>
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
-          <item>linient</item>
+          <item>lenient</item>
           <item>strict</item>
         </value>
       </trait>
@@ -21907,6 +21999,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">ltr</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>ltr</item>
+          <item>rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -22526,6 +22624,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">smart</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>lenient</item>
+          <item>smart</item>
+          <item>strict</item>
+        </value>
+      </trait>
     </entity>
     <entity id="timeInput">
       <trait id="attribute-value-runtime-type">
@@ -22985,7 +23090,14 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:StringValue">solid&quot; and other options are &quot;dashed&quot; and &quot;dotted</value>
+        <value xsi:type="mdt:StringValue">solid</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>solid</item>
+          <item>dashed</item>
+          <item>dotted</item>
+        </value>
       </trait>
     </entity>
     <entity id="title">
