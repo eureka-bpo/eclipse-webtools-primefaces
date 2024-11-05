@@ -5,5 +5,8 @@
       <standardMetaDataFile
             location="$nl$/metadata/primefaces.xml"
             uri="http://primefaces.org/ui"/>
+      <standardMetaDataFile
+            location="$nl$/metadata/primefaces.xml"
+            uri="primefaces"/>
    </extension>
 </plugin>
