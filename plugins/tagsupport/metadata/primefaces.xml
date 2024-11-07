@@ -149,6 +149,12 @@
           <item>inline</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%fileDownload.contentDisposition.displayed-values.attachment</item>
+          <item>%fileDownload.contentDisposition.displayed-values.inline</item>
+        </value>
+      </trait>
     </entity>
     <entity id="monitorKey">
       <trait id="attribute-value-runtime-type">
@@ -1077,16 +1083,6 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
       </trait>
     </entity>
-    <entity id="effect">
-      <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-    </entity>
-    <entity id="effectDuration">
-      <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
-      </trait>
-    </entity>
     <entity id="dropdown">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
@@ -1334,12 +1330,12 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:StringValue">png</value>
+        <value xsi:type="mdt:StringValue">svg</value>
       </trait>
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
-          <item>png</item>
           <item>svg</item>
+          <item>png</item>
         </value>
       </trait>
     </entity>
@@ -2209,6 +2205,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">popup</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>popup</item>
+          <item>inline</item>
+        </value>
+      </trait>
     </entity>
     <entity id="pattern">
       <trait id="attribute-value-runtime-type">
@@ -2253,6 +2255,19 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>show</item>
+          <item>slideDown</item>
+          <item>fadeIn</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>fold</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
@@ -2261,10 +2276,34 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">normal</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
+      </trait>
     </entity>
     <entity id="showOn">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">both</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>focus</item>
+          <item>button</item>
+          <item>both</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%calendar.showOn.displayed-values.focus</item>
+          <item>%calendar.showOn.displayed-values.button</item>
+          <item>%calendar.showOn.displayed-values.both</item>
+        </value>
       </trait>
     </entity>
     <entity id="showWeek">
@@ -5099,10 +5138,44 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="hideEffect">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
       </trait>
     </entity>
     <entity id="closeOnEscape">
@@ -6857,10 +6930,44 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="hideEffect">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
       </trait>
     </entity>
     <entity id="my">
@@ -7356,6 +7463,24 @@
     <entity id="type">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>puff</item>
+          <item>slide</item>
+          <item>scale</item>
+          <item>bounce</item>
+          <item>highlight</item>
+          <item>pulsate</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>transfer</item>
+        </value>
       </trait>
     </entity>
     <entity id="for">
@@ -8986,6 +9111,37 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>none</item>
+          <item>blindX</item>
+          <item>blindY</item>
+          <item>blindZ</item>
+          <item>cover</item>
+          <item>curtainX</item>
+          <item>curtainY</item>
+          <item>fade</item>
+          <item>fadeZoom</item>
+          <item>growX</item>
+          <item>growY</item>
+          <item>scrollUp</item>
+          <item>scrollDown</item>
+          <item>scrollLeft</item>
+          <item>scrollRight</item>
+          <item>scrollVert</item>
+          <item>shuffle</item>
+          <item>slideX</item>
+          <item>slideY</item>
+          <item>toss</item>
+          <item>turnUp</item>
+          <item>turnDown</item>
+          <item>turnLeft</item>
+          <item>turnRight</item>
+          <item>uncover</item>
+          <item>wipe</item>
+          <item>zoom</item>
+        </value>
+      </trait>
     </entity>
     <entity id="speed">
       <trait id="attribute-value-runtime-type">
@@ -9058,6 +9214,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectSpeed">
       <trait id="attribute-value-runtime-type">
@@ -9065,6 +9227,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">normal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>slow</item>
+          <item>normal</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -10788,6 +10957,13 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
+      </trait>
     </entity>
     <entity id="rendered">
       <trait id="attribute-value-runtime-type">
@@ -11131,10 +11307,35 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fadeIn</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fadeIn</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="layout">
@@ -12820,6 +13021,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">300</value>
+      </trait>
     </entity>
   </entity>
   <entity id="multiSelectListbox" type="tag">
@@ -12903,6 +13107,23 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="showHeaders">
       <trait id="attribute-value-runtime-type">
@@ -12969,6 +13190,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectSpeed">
       <trait id="attribute-value-runtime-type">
@@ -12976,6 +13203,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">normal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="autoDisplay">
@@ -13082,6 +13316,24 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
       </trait>
     </entity>
     <entity id="moveUpLabel">
@@ -14516,13 +14768,38 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectSpeed">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:StringValue">fast</value>
+        <value xsi:type="mdt:StringValue">normal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="escape">
@@ -15333,6 +15610,50 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">swing</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>swing</item>
+
+          <item>easeInQuad</item>
+          <item>easeOutQuad</item>
+          <item>easeInOutQuad</item>
+
+          <item>easeInCubic</item>
+          <item>easeOutCubic</item>
+          <item>easeInOutCubic</item>
+
+          <item>easeInQuart</item>
+          <item>easeOutQuart</item>
+          <item>easeInOutQuart</item>
+
+          <item>easeInQuint</item>
+          <item>easeOutQuint</item>
+          <item>easeInOutQuint</item>
+
+          <item>easeInSine</item>
+          <item>easeOutSine</item>
+
+          <item>easeInExpo</item>
+          <item>easeOutExpo</item>
+          <item>easeInOutExpo</item>
+
+          <item>easeInCirc</item>
+          <item>easeOutCirc</item>
+          <item>easeInOutCirc</item>
+
+          <item>easeInElastic</item>
+          <item>easeOutElastic</item>
+          <item>easeInOutElastic</item>
+
+          <item>easeInBack</item>
+          <item>easeOutBack</item>
+          <item>easeInOutBack</item>
+
+          <item>easeInBounce</item>
+          <item>easeOutBounce</item>
+          <item>easeInOutBounce</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
@@ -15340,6 +15661,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">normal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="maxWidth">
@@ -19303,6 +19631,24 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>puff</item>
+          <item>slide</item>
+          <item>scale</item>
+          <item>bounce</item>
+          <item>highlight</item>
+          <item>pulsate</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>transfer</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
@@ -19310,6 +19656,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">normal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>normal</item>
+          <item>slow</item>
+          <item>fast</item>
+        </value>
       </trait>
     </entity>
     <entity id="dynamic">
@@ -20473,6 +20826,24 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="showDelay">
       <trait id="attribute-value-runtime-type">
@@ -20496,6 +20867,24 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">fade</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>fade</item>
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
       </trait>
     </entity>
     <entity id="hideDelay">
@@ -21750,10 +22139,31 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>puff</item>
+          <item>slide</item>
+          <item>scale</item>
+          <item>bounce</item>
+          <item>highlight</item>
+          <item>pulsate</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>transfer</item>
+        </value>
+      </trait>
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">400</value>
       </trait>
     </entity>
   </entity>
@@ -23665,10 +24075,44 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
+      </trait>
     </entity>
     <entity id="hideEffect">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>bounce</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>highlight</item>
+          <item>puff</item>
+          <item>pulsate</item>
+          <item>scale</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>slide</item>
+        </value>
       </trait>
     </entity>
     <entity id="global">
