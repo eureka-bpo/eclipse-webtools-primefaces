@@ -481,6 +481,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%accordionPanel.dir.displayed-values.ltr</item>
+          <item>%accordionPanel.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="prependId">
       <trait id="attribute-value-runtime-type">
@@ -780,6 +786,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%autoComplete.dir.displayed-values.ltr</item>
+          <item>%autoComplete.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -1387,6 +1399,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%barcode.dir.displayed-values.ltr</item>
+          <item>%barcode.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
@@ -1670,6 +1688,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%button.dir.displayed-values.ltr</item>
+          <item>%button.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
@@ -1936,6 +1960,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%calendar.dir.displayed-values.ltr</item>
+          <item>%calendar.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -2961,6 +2991,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%chips.dir.displayed-values.ltr</item>
+          <item>%chips.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -3386,6 +3422,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%colorPicker.dir.displayed-values.ltr</item>
+          <item>%colorPicker.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -4466,6 +4508,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%commandButton.dir.displayed-values.ltr</item>
+          <item>%commandButton.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -4791,6 +4839,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%commandLink.dir.displayed-values.ltr</item>
+          <item>%commandLink.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -5070,6 +5124,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%confirmDialog.dir.displayed-values.ltr</item>
+          <item>%confirmDialog.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -6032,6 +6092,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%dataTable.dir.displayed-values.ltr</item>
+          <item>%dataTable.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="liveResize">
       <trait id="attribute-value-runtime-type">
@@ -6885,6 +6951,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%dialog.dir.displayed-values.ltr</item>
+          <item>%dialog.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="focus">
       <trait id="attribute-value-runtime-type">
@@ -6991,6 +7063,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%dock.dir.displayed-values.ltr</item>
+          <item>%dock.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -8196,6 +8274,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%graphicImage.dir.displayed-values.ltr</item>
+          <item>%graphicImage.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
@@ -9137,6 +9221,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%inputMask.dir.displayed-values.ltr</item>
+          <item>%inputMask.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -9484,6 +9574,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%inputNumber.dir.displayed-values.ltr</item>
+          <item>%inputNumber.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -10056,6 +10152,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%inputText.dir.displayed-values.ltr</item>
+          <item>%inputText.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -10388,6 +10490,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%inputTextarea.dir.displayed-values.ltr</item>
+          <item>%inputTextarea.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -10758,6 +10866,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%keyboard.dir.displayed-values.ltr</item>
+          <item>%keyboard.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -11373,6 +11487,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%lifecycle.dir.displayed-values.ltr</item>
+          <item>%lifecycle.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="hreflang">
       <trait id="attribute-value-runtime-type">
@@ -11583,6 +11703,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%linkButton.dir.displayed-values.ltr</item>
+          <item>%linkButton.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -11900,6 +12026,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%megaMenu.dir.displayed-values.ltr</item>
+          <item>%megaMenu.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
   </entity>
   <entity id="menu" type="tag">
@@ -12088,6 +12220,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%menubar.dir.displayed-values.ltr</item>
+          <item>%menubar.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -13154,6 +13292,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%outputLabel.dir.displayed-values.ltr</item>
+          <item>%outputLabel.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="escape">
       <trait id="attribute-value-runtime-type">
@@ -13802,6 +13946,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%password.dir.displayed-values.ltr</item>
+          <item>%password.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -15417,6 +15567,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%schedule.dir.displayed-values.ltr</item>
+          <item>%schedule.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -17135,6 +17291,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%schedule.dir.displayed-values.ltr</item>
+          <item>%schedule.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="touchable">
       <trait id="attribute-value-runtime-type">
@@ -17924,6 +18086,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%spinner.dir.displayed-values.ltr</item>
+          <item>%spinner.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -18375,6 +18543,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%splitButton.dir.displayed-values.ltr</item>
+          <item>%splitButton.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -19219,6 +19393,12 @@
           <item>rtl</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%tabView.dir.displayed-values.ltr</item>
+          <item>%tabView.dir.displayed-values.rtl</item>
+        </value>
+      </trait>
     </entity>
     <entity id="scrollable">
       <trait id="attribute-value-runtime-type">
@@ -19602,6 +19782,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%tieredMenu.dir.displayed-values.ltr</item>
+          <item>%tieredMenu.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -20040,6 +20226,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%timeline.dir.displayed-values.ltr</item>
+          <item>%timeline.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -20543,6 +20735,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%tree.dir.displayed-values.ltr</item>
+          <item>%tree.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
@@ -22003,6 +22201,12 @@
         <value xsi:type="mdt:ListOfValues">
           <item>ltr</item>
           <item>rtl</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%datePicker.dir.displayed-values.ltr</item>
+          <item>%datePicker.dir.displayed-values.rtl</item>
         </value>
       </trait>
     </entity>
