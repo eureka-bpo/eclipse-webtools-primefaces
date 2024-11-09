@@ -16861,6 +16861,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">lineDirection</value>
+      </trait>
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>lineDirection</item>
@@ -16868,6 +16871,15 @@
           <item>grid</item>
           <item>responsive</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectManyCheckbox.layout.displayed-values.lineDirection</item>
+          <item>%selectManyCheckbox.layout.displayed-values.pageDirection</item>
+          <item>%selectManyCheckbox.layout.displayed-values.grid</item>
+          <item>%selectManyCheckbox.layout.displayed-values.responsive</item>
+          <item>%selectManyCheckbox.layout.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -17711,6 +17723,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">lineDirection</value>
+      </trait>
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>lineDirection</item>
@@ -17718,6 +17733,15 @@
           <item>grid</item>
           <item>responsive</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectOneRadio.layout.displayed-values.lineDirection</item>
+          <item>%selectOneRadio.layout.displayed-values.pageDirection</item>
+          <item>%selectOneRadio.layout.displayed-values.grid</item>
+          <item>%selectOneRadio.layout.displayed-values.responsive</item>
+          <item>%selectOneRadio.layout.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
