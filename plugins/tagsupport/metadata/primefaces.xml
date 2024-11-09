@@ -4435,10 +4435,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -4761,10 +4774,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -8698,10 +8724,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -12556,10 +12595,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -15427,10 +15479,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -18803,10 +18868,23 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
       </trait>
     </entity>
-    <entity id="actionListener"/>
+    <entity id="actionListener">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:StringValue">jakarta.faces.event.ActionEvent</value>
+      </trait>
+    </entity>
     <entity id="action">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">java.lang.String</value>
       </trait>
     </entity>
     <entity id="immediate">
