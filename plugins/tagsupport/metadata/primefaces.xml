@@ -1370,6 +1370,36 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>int2of5</item>
+          <item>codabar</item>
+          <item>code39</item>
+          <item>code128</item>
+          <item>ean8</item>
+          <item>ean13</item>
+          <item>upca</item>
+          <item>postnet</item>
+          <item>pdf417</item>
+          <item>datamatrix</item>
+          <item>qr</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%barcode.type.displayed-values.int2of5</item>
+          <item>%barcode.type.displayed-values.codabar</item>
+          <item>%barcode.type.displayed-values.code39</item>
+          <item>%barcode.type.displayed-values.code128</item>
+          <item>%barcode.type.displayed-values.ean8</item>
+          <item>%barcode.type.displayed-values.ean13</item>
+          <item>%barcode.type.displayed-values.upca</item>
+          <item>%barcode.type.displayed-values.postnet</item>
+          <item>%barcode.type.displayed-values.pdf417</item>
+          <item>%barcode.type.displayed-values.datamatrix</item>
+          <item>%barcode.type.displayed-values.qr</item>
+        </value>
+      </trait>
     </entity>
     <entity id="cache">
       <trait id="attribute-value-runtime-type">
@@ -1397,6 +1427,17 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">0</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>0</item>
+          <item>90</item>
+          <item>180</item>
+          <item>270</item>
+        </value>
+      </trait>
     </entity>
     <entity id="qrErrorCorrection">
       <trait id="attribute-value-runtime-type">
@@ -1405,10 +1446,36 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">L</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>L</item>
+          <item>M</item>
+          <item>Q</item>
+          <item>H</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%barcode.qrErrorCorrection.displayed-values.L</item>
+          <item>%barcode.qrErrorCorrection.displayed-values.M</item>
+          <item>%barcode.qrErrorCorrection.displayed-values.Q</item>
+          <item>%barcode.qrErrorCorrection.displayed-values.H</item>
+        </value>
+      </trait>
     </entity>
     <entity id="hrp">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">bottom</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>none</item>
+          <item>top</item>
+          <item>bottom</item>
+        </value>
       </trait>
     </entity>
     <entity id="value">
