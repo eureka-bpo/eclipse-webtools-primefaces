@@ -779,6 +779,7 @@
         </value>
       </trait>
     </entity>
+    <entity id="validator">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
