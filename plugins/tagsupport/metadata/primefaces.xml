@@ -11525,12 +11525,12 @@
     </entity>
     <entity id="foregroundColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ColorType</value>
       </trait>
     </entity>
     <entity id="backgroundColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ColorType</value>
       </trait>
     </entity>
     <entity id="colorTheme">
@@ -17999,7 +17999,7 @@
     </entity>
     <entity id="backgroundColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ColorType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">#ffffff</value>
@@ -18007,7 +18007,7 @@
     </entity>
     <entity id="color">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ColorType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">#000000</value>
@@ -18046,7 +18046,7 @@
     </entity>
     <entity id="guidelineColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ColorType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">#a0a0a0</value>
