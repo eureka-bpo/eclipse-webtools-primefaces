@@ -765,6 +765,33 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
+    </entity>
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -1945,6 +1972,34 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
+    </entity>
+    <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -2694,6 +2749,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -3046,6 +3114,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -3495,6 +3576,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -7812,6 +7906,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -9132,6 +9239,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -9533,6 +9653,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -9901,6 +10034,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -10369,6 +10515,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -10503,6 +10662,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -10861,6 +11033,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -11252,6 +11437,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -11741,6 +11939,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -13364,6 +13575,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -13569,6 +13793,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -14479,6 +14716,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -14901,6 +15151,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -15059,6 +15322,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -15697,6 +15973,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -16615,6 +16904,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -16767,6 +17069,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -16903,6 +17218,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17158,6 +17486,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17269,6 +17610,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17421,6 +17775,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17612,6 +17979,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17731,6 +18111,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -17904,6 +18297,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -18196,6 +18602,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -18497,6 +18916,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -18928,6 +19360,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -20521,6 +20966,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -21238,6 +21696,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -22456,6 +22927,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -23207,6 +23691,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="valueChangeListener">
       <trait id="attribute-value-runtime-type">
@@ -24824,6 +25321,19 @@
       </trait>
     </entity>
     <entity id="validator">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">void</value>
+      </trait>
+      <trait id="runtime-param-types">
+        <value xsi:type="mdt:ListOfValues">
+          <item>jakarta.faces.context.FacesContext</item>
+          <item>jakarta.faces.component.UIComponent</item>
+          <item>java.lang.Object</item>
+        </value>
+      </trait>
     </entity>
     <entity id="requiredMessage">
       <trait id="attribute-value-runtime-type">
