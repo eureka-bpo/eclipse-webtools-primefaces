@@ -10,12 +10,12 @@
     </entity>
     <entity id="fileLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="sizeLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
     </entity>
     <entity id="contentType">
@@ -70,17 +70,17 @@
     </entity>
     <entity id="preProcessor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="postProcessor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="onRowExport">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="encoding">
@@ -120,12 +120,12 @@
     <entity id="options"/>
     <entity id="exporter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="onTableRender">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="bufferSize"/>
@@ -176,7 +176,7 @@
   <entity id="ajax" type="tag">
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -519,7 +519,7 @@
     </entity>
     <entity id="tabController">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="multiViewState">
@@ -532,7 +532,7 @@
     </entity>
     <entity id="toggleSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -602,7 +602,7 @@
     </entity>
     <entity id="delay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -837,7 +837,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -1002,7 +1002,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -1042,7 +1042,7 @@
     </entity>
     <entity id="completeMethod">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="var">
@@ -1057,7 +1057,7 @@
     </entity>
     <entity id="itemValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="itemStyleClass">
@@ -1067,12 +1067,12 @@
     </entity>
     <entity id="maxResults">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="minQueryLength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -1080,7 +1080,7 @@
     </entity>
     <entity id="queryDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -1096,7 +1096,7 @@
     </entity>
     <entity id="scrollHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="dropdown">
@@ -1142,7 +1142,7 @@
     </entity>
     <entity id="cacheTimeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="appendTo">
@@ -1152,7 +1152,7 @@
     </entity>
     <entity id="groupBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="queryEvent">
@@ -1192,7 +1192,7 @@
     </entity>
     <entity id="selectLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="inputStyle">
@@ -1303,7 +1303,7 @@
     </entity>
     <entity id="lazyModel">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="lazyField">
@@ -1357,7 +1357,7 @@
     </entity>
     <entity id="orientation">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="qrErrorCorrection">
@@ -2007,7 +2007,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -2172,7 +2172,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -2207,17 +2207,17 @@
     </entity>
     <entity id="mindate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="maxdate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="pages">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="mode">
@@ -2241,7 +2241,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="navigator">
@@ -2254,7 +2254,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="readonlyInput">
@@ -2375,7 +2375,7 @@
     </entity>
     <entity id="stepHour">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -2383,7 +2383,7 @@
     </entity>
     <entity id="stepMinute">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -2391,7 +2391,7 @@
     </entity>
     <entity id="stepSecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -2399,7 +2399,7 @@
     </entity>
     <entity id="minHour">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2407,7 +2407,7 @@
     </entity>
     <entity id="maxHour">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">23</value>
@@ -2415,7 +2415,7 @@
     </entity>
     <entity id="minMinute">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2423,7 +2423,7 @@
     </entity>
     <entity id="maxMinute">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">59</value>
@@ -2431,7 +2431,7 @@
     </entity>
     <entity id="minSecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2439,7 +2439,7 @@
     </entity>
     <entity id="maxSecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">59</value>
@@ -2447,7 +2447,7 @@
     </entity>
     <entity id="pagedate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="beforeShowDay">
@@ -2569,7 +2569,7 @@
     </entity>
     <entity id="defaultHour">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2577,7 +2577,7 @@
     </entity>
     <entity id="defaultMinute">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2585,7 +2585,7 @@
     </entity>
     <entity id="defaultSecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2593,7 +2593,7 @@
     </entity>
     <entity id="defaultMillisec">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2709,7 +2709,7 @@
     </entity>
     <entity id="tabindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="label">
@@ -2779,7 +2779,7 @@
     </entity>
     <entity id="page">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="headerText">
@@ -2812,7 +2812,7 @@
     </entity>
     <entity id="autoplayInterval">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -2820,7 +2820,7 @@
     </entity>
     <entity id="numVisible">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -2828,7 +2828,7 @@
     </entity>
     <entity id="numScroll">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -2944,7 +2944,7 @@
     </entity>
     <entity id="itemIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onchange">
@@ -3088,7 +3088,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -3253,7 +3253,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -3288,7 +3288,7 @@
     </entity>
     <entity id="max">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="inputStyle">
@@ -3378,7 +3378,7 @@
     </entity>
     <entity id="syncInterval">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">60000</value>
@@ -3386,7 +3386,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="displayMode">
@@ -3527,7 +3527,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -3692,7 +3692,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -3845,7 +3845,7 @@
     </entity>
     <entity id="sortBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="sortOrder">
@@ -3855,7 +3855,7 @@
     </entity>
     <entity id="nullSortOrder">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -3863,7 +3863,7 @@
     </entity>
     <entity id="sortPriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MAX_VALUE</value>
@@ -3894,12 +3894,12 @@
     </entity>
     <entity id="sortFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="filterBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filterStyle">
@@ -3943,12 +3943,12 @@
     </entity>
     <entity id="rowspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="colspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="headerText">
@@ -3968,7 +3968,7 @@
     </entity>
     <entity id="filterMaxLength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="resizable">
@@ -3983,7 +3983,7 @@
     </entity>
     <entity id="filterValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="width">
@@ -4009,7 +4009,7 @@
     </entity>
     <entity id="filterFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="field">
@@ -4019,7 +4019,7 @@
     </entity>
     <entity id="responsivePriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="sortable">
@@ -4055,7 +4055,7 @@
     </entity>
     <entity id="exportFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="groupRow">
@@ -4070,12 +4070,12 @@
     </entity>
     <entity id="exportRowspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="exportColspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="exportHeaderValue">
@@ -4095,12 +4095,12 @@
     </entity>
     <entity id="displayPriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
   </entity>
@@ -4163,7 +4163,7 @@
     </entity>
     <entity id="sortBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="title">
@@ -4188,7 +4188,7 @@
     </entity>
     <entity id="sortPriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MAX_VALUE</value>
@@ -4196,12 +4196,12 @@
     </entity>
     <entity id="sortFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="nullSortOrder">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -4217,7 +4217,7 @@
     </entity>
     <entity id="filterBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filterStyle">
@@ -4261,17 +4261,17 @@
     </entity>
     <entity id="filterValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="rowspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="colspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="headerText">
@@ -4286,7 +4286,7 @@
     </entity>
     <entity id="filterMaxLength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="resizable">
@@ -4327,7 +4327,7 @@
     </entity>
     <entity id="filterFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="field">
@@ -4337,7 +4337,7 @@
     </entity>
     <entity id="responsivePriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="sortable">
@@ -4373,7 +4373,7 @@
     </entity>
     <entity id="exportFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="groupRow">
@@ -4388,12 +4388,12 @@
     </entity>
     <entity id="exportRowspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="exportColspan">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="exportHeaderValue">
@@ -4413,12 +4413,12 @@
     </entity>
     <entity id="displayPriority">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
   </entity>
@@ -4565,7 +4565,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="partialSubmit">
@@ -4907,7 +4907,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="partialSubmit">
@@ -5467,7 +5467,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -5475,7 +5475,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -5485,7 +5485,7 @@
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">3</value>
@@ -5513,7 +5513,7 @@
     </entity>
     <entity id="pageLinks">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -5655,7 +5655,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -5663,7 +5663,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -5716,7 +5716,7 @@
     </entity>
     <entity id="pageLinks">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -5836,7 +5836,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -5844,7 +5844,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -5864,7 +5864,7 @@
     </entity>
     <entity id="chunkSize">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="rowIndexVar">
@@ -5898,7 +5898,7 @@
     </entity>
     <entity id="buffer">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -5952,7 +5952,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -5960,7 +5960,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -5993,7 +5993,7 @@
     </entity>
     <entity id="pageLinks">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -6053,7 +6053,7 @@
     </entity>
     <entity id="selection">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="selectionPageOnly">
@@ -6112,7 +6112,7 @@
     </entity>
     <entity id="sortBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="sortMode">
@@ -6139,12 +6139,12 @@
     </entity>
     <entity id="scrollRows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="rowKey">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filterEvent">
@@ -6157,7 +6157,7 @@
     </entity>
     <entity id="filterDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -6233,7 +6233,7 @@
     </entity>
     <entity id="frozenRows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="dir">
@@ -6307,7 +6307,7 @@
     </entity>
     <entity id="dataLocale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="nativeElements">
@@ -6317,7 +6317,7 @@
     </entity>
     <entity id="frozenColumns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -6370,7 +6370,7 @@
     </entity>
     <entity id="liveScrollBuffer">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -6487,7 +6487,7 @@
     </entity>
     <entity id="draggableRowsFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="onRowClick">
@@ -6542,7 +6542,7 @@
     </entity>
     <entity id="globalFilterFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="touchable">
@@ -6641,7 +6641,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -6649,7 +6649,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -6684,7 +6684,7 @@
     </entity>
     <entity id="pageLinks">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -6799,7 +6799,7 @@
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">3</value>
@@ -6998,12 +6998,12 @@
     </entity>
     <entity id="minWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="minHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -7243,7 +7243,7 @@
     </entity>
     <entity id="animationDuration">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1600</value>
@@ -7365,7 +7365,7 @@
     </entity>
     <entity id="snapTolerance">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">20</value>
@@ -7373,7 +7373,7 @@
     </entity>
     <entity id="zindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">-1</value>
@@ -7386,7 +7386,7 @@
     </entity>
     <entity id="opacity">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">1.0</value>
@@ -7580,7 +7580,7 @@
     </entity>
     <entity id="speed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1000</value>
@@ -7588,7 +7588,7 @@
     </entity>
     <entity id="delay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="queue">
@@ -7628,7 +7628,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
   </entity>
@@ -7678,7 +7678,7 @@
     </entity>
     <entity id="toggleSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -7811,7 +7811,7 @@
     </entity>
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="multiple">
@@ -7845,12 +7845,12 @@
     </entity>
     <entity id="fileLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="sizeLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:LongValue">0</value>
@@ -7858,17 +7858,17 @@
     </entity>
     <entity id="maxChunkSize">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
     </entity>
     <entity id="maxRetries">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="retryTimeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="mode">
@@ -7951,7 +7951,7 @@
     </entity>
     <entity id="previewWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">80</value>
@@ -8170,7 +8170,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="fullScreen">
@@ -8185,12 +8185,12 @@
     </entity>
     <entity id="numVisible">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="responsiveOptions">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="showThumbnails">
@@ -8245,7 +8245,7 @@
     </entity>
     <entity id="transitionInterval">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="thumbnailsPosition">
@@ -8284,7 +8284,7 @@
     </entity>
     <entity id="tabindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -8335,7 +8335,7 @@
     </entity>
     <entity id="zoom">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">8</value>
@@ -8429,7 +8429,7 @@
     </entity>
     <entity id="maxWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MIN_VALUE</value>
@@ -8669,7 +8669,7 @@
     </entity>
     <entity id="life">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">800</value>
@@ -8741,7 +8741,7 @@
     </entity>
     <entity id="groupBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="sortOrder">
@@ -8761,7 +8761,7 @@
     </entity>
     <entity id="sortFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="expandable">
@@ -8884,7 +8884,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="async">
@@ -8955,7 +8955,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300000</value>
@@ -9096,7 +9096,7 @@
     </entity>
     <entity id="image">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="alt">
@@ -9106,7 +9106,7 @@
     </entity>
     <entity id="aspectRatio">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
     </entity>
     <entity id="minSize">
@@ -9126,17 +9126,17 @@
     </entity>
     <entity id="boxWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="boxHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="sizeLimit">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:LongValue">10485760</value>
@@ -9160,7 +9160,7 @@
     </entity>
     <entity id="viewMode">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -9260,7 +9260,7 @@
     </entity>
     <entity id="speed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -9268,7 +9268,7 @@
     </entity>
     <entity id="slideshowSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">3000</value>
@@ -9284,7 +9284,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -9535,7 +9535,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -9700,7 +9700,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -9893,7 +9893,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -10058,7 +10058,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -10475,7 +10475,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -10640,7 +10640,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -10775,7 +10775,7 @@
     </entity>
     <entity id="cols">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="dir">
@@ -10978,7 +10978,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -11023,7 +11023,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -11052,12 +11052,12 @@
     </entity>
     <entity id="completeMethod">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="minQueryLength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">3</value>
@@ -11065,7 +11065,7 @@
     </entity>
     <entity id="queryDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">700</value>
@@ -11073,7 +11073,7 @@
     </entity>
     <entity id="scrollHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="addLine">
@@ -11204,7 +11204,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -11369,7 +11369,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -11635,38 +11635,38 @@
     </entity>
     <entity id="min">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="max">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="step">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="thickness"/>
     <entity id="width">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="height">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="foregroundColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ColorType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ColorType</value>
       </trait>
     </entity>
     <entity id="backgroundColor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ColorType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ColorType</value>
       </trait>
     </entity>
     <entity id="colorTheme">
@@ -12328,7 +12328,7 @@
     </entity>
     <entity id="delay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -12336,7 +12336,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="orientation">
@@ -12444,7 +12444,7 @@
     </entity>
     <entity id="tabindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -12513,7 +12513,7 @@
     </entity>
     <entity id="tabindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -12535,7 +12535,7 @@
     </entity>
     <entity id="showDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -12543,7 +12543,7 @@
     </entity>
     <entity id="hideDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -12797,7 +12797,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="async">
@@ -12917,7 +12917,7 @@
     </entity>
     <entity id="badge">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">null</value>
@@ -13174,7 +13174,7 @@
     </entity>
     <entity id="effectSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -13453,7 +13453,7 @@
     </entity>
     <entity id="itemValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -13595,7 +13595,7 @@
     </entity>
     <entity id="leafNodeConnectorHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="zoom">
@@ -14020,7 +14020,7 @@
     </entity>
     <entity id="showDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -14068,7 +14068,7 @@
     </entity>
     <entity id="toggleSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -14102,7 +14102,7 @@
     </entity>
     <entity id="closeSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -14185,7 +14185,7 @@
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -14391,7 +14391,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -14556,7 +14556,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -14775,27 +14775,27 @@
     </entity>
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="width">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="height">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="photoWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="photoHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="format">
@@ -14814,7 +14814,7 @@
     </entity>
     <entity id="jpegQuality">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">90</value>
@@ -14913,7 +14913,7 @@
     </entity>
     <entity id="itemValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -15102,7 +15102,7 @@
     </entity>
     <entity id="filterDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -15153,7 +15153,7 @@
     </entity>
     <entity id="interval">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">2</value>
@@ -15166,7 +15166,7 @@
     </entity>
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -15227,7 +15227,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="async">
@@ -15330,7 +15330,7 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -15351,7 +15351,7 @@
     </entity>
     <entity id="interval">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">3000</value>
@@ -15359,7 +15359,7 @@
     </entity>
     <entity id="animationDuration">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -15435,7 +15435,7 @@
     </entity>
     <entity id="itemIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onchange">
@@ -15531,7 +15531,7 @@
     </entity>
     <entity id="stars">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">5</value>
@@ -15677,7 +15677,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="async">
@@ -15861,7 +15861,7 @@
     </entity>
     <entity id="maxWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MAX_VALUE</value>
@@ -15869,7 +15869,7 @@
     </entity>
     <entity id="maxHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MAX_VALUE</value>
@@ -15877,7 +15877,7 @@
     </entity>
     <entity id="minWidth">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MIN_VALUE</value>
@@ -15885,7 +15885,7 @@
     </entity>
     <entity id="minHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">Integer.MIN_VALUE</value>
@@ -15901,7 +15901,7 @@
     </entity>
     <entity id="grid">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -16070,7 +16070,7 @@
     <entity id="value"/>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="dir">
@@ -16095,7 +16095,7 @@
     </entity>
     <entity id="aspectRatio">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
     </entity>
     <entity id="view">
@@ -16108,7 +16108,7 @@
     </entity>
     <entity id="initialDate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="showWeekends">
@@ -16241,7 +16241,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="clientTimeZone">
@@ -17094,7 +17094,7 @@
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onchange">
@@ -17295,7 +17295,7 @@
     </entity>
     <entity id="scrollHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="hideNoSelectionOption">
@@ -17572,7 +17572,7 @@
     </entity>
     <entity id="scrollHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="hideNoSelectionOption">
@@ -17778,7 +17778,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="appendTo">
@@ -17971,7 +17971,7 @@
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onchange">
@@ -18127,7 +18127,7 @@
     </entity>
     <entity id="baseZIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="appendTo">
@@ -18237,7 +18237,7 @@
     </entity>
     <entity id="thickness">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">2</value>
@@ -18276,12 +18276,12 @@
     </entity>
     <entity id="guidelineOffset">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="guidelineIndent">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onchange">
@@ -18319,7 +18319,7 @@
     </entity>
     <entity id="fontSize">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">40</value>
@@ -18439,7 +18439,7 @@
     </entity>
     <entity id="minValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">0.0</value>
@@ -18447,7 +18447,7 @@
     </entity>
     <entity id="maxValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">100.0</value>
@@ -18481,7 +18481,7 @@
     </entity>
     <entity id="step">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">1.0</value>
@@ -18690,7 +18690,7 @@
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -18855,7 +18855,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -18895,7 +18895,7 @@
     </entity>
     <entity id="stepFactor">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">1.0</value>
@@ -18911,7 +18911,7 @@
     </entity>
     <entity id="min">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">Double.MIN_VALUE</value>
@@ -18919,7 +18919,7 @@
     </entity>
     <entity id="max">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.DoubleType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:DoubleValue">Double.MAX_VALUE</value>
@@ -19115,7 +19115,7 @@
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="accesskey">
@@ -19458,7 +19458,7 @@
     </entity>
     <entity id="openSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -19466,7 +19466,7 @@
     </entity>
     <entity id="closeSpeed">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -19582,7 +19582,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -19633,7 +19633,7 @@
     </entity>
     <entity id="margin">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -19718,7 +19718,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -19726,7 +19726,7 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
   </entity>
@@ -19748,7 +19748,7 @@
     </entity>
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
   </entity>
@@ -19843,7 +19843,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -19889,7 +19889,7 @@
     </entity>
     <entity id="activeIndex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -20148,7 +20148,7 @@
     </entity>
     <entity id="commandHandler">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="autoCompleteModel"/>
@@ -20381,7 +20381,7 @@
     </entity>
     <entity id="showDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -20389,7 +20389,7 @@
     </entity>
     <entity id="hideDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -20460,12 +20460,12 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="clientTimeZone">
@@ -20480,12 +20480,12 @@
     </entity>
     <entity id="minHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="maxHeight">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="horizontalScroll">
@@ -20635,7 +20635,7 @@
     </entity>
     <entity id="zoomMin">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:LongValue">10</value>
@@ -20643,7 +20643,7 @@
     </entity>
     <entity id="zoomMax">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.LongType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:LongValue">315360000000000</value>
@@ -20656,7 +20656,7 @@
     </entity>
     <entity id="eventMargin">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -20664,7 +20664,7 @@
     </entity>
     <entity id="eventHorizontalMargin">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -20672,7 +20672,7 @@
     </entity>
     <entity id="eventVerticalMargin">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -20680,7 +20680,7 @@
     </entity>
     <entity id="eventMarginAxis">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -20833,7 +20833,7 @@
     </entity>
     <entity id="tooltipDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">500</value>
@@ -21124,7 +21124,7 @@
     </entity>
     <entity id="showDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">150</value>
@@ -21166,7 +21166,7 @@
     </entity>
     <entity id="hideDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -21323,7 +21323,7 @@
     </entity>
     <entity id="selection">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -21355,7 +21355,7 @@
     </entity>
     <entity id="datakey">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="animate">
@@ -21491,7 +21491,7 @@
     </entity>
     <entity id="tabindex">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -21504,7 +21504,7 @@
     </entity>
     <entity id="filterBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filterMatchMode">
@@ -21533,7 +21533,7 @@
     </entity>
     <entity id="filterDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -21570,7 +21570,7 @@
     </entity>
     <entity id="onDrop">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="filterMode">
@@ -21589,7 +21589,7 @@
     </entity>
     <entity id="filterFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
   </entity>
@@ -21682,7 +21682,7 @@
     </entity>
     <entity id="selection">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="selectionMode">
@@ -21760,7 +21760,7 @@
     </entity>
     <entity id="sortBy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="nativeElements">
@@ -21770,7 +21770,7 @@
     </entity>
     <entity id="dataLocale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="skipChildren">
@@ -21879,7 +21879,7 @@
     </entity>
     <entity id="pageLinks">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">10</value>
@@ -21910,7 +21910,7 @@
     </entity>
     <entity id="rows">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">0</value>
@@ -21918,12 +21918,12 @@
     </entity>
     <entity id="first">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="filteredValue">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filterEvent">
@@ -21936,7 +21936,7 @@
     </entity>
     <entity id="filterDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">300</value>
@@ -21994,7 +21994,7 @@
     </entity>
     <entity id="globalFilterFunction">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="sortMode">
@@ -22360,7 +22360,7 @@
     </entity>
     <entity id="flowListener">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.MethodBindingType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
       </trait>
     </entity>
     <entity id="showNavBar">
@@ -22446,7 +22446,7 @@
     </entity>
     <entity id="effectDuration">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">400</value>
@@ -22929,12 +22929,12 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="maxlength">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -23099,7 +23099,7 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -23191,7 +23191,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="buttonTabindex">
@@ -23230,12 +23230,12 @@
     </entity>
     <entity id="mindate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="maxdate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="selectionMode">
@@ -23356,7 +23356,7 @@
     </entity>
     <entity id="stepHour">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -23364,7 +23364,7 @@
     </entity>
     <entity id="stepMinute">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -23372,7 +23372,7 @@
     </entity>
     <entity id="stepSecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -23380,7 +23380,7 @@
     </entity>
     <entity id="stepMillisecond">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -23430,7 +23430,7 @@
     </entity>
     <entity id="maxDateCount">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">java.lang.Integer.MAX_VALUE</value>
@@ -23438,7 +23438,7 @@
     </entity>
     <entity id="numberOfMonths">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
@@ -23465,7 +23465,7 @@
     </entity>
     <entity id="responsiveBreakpoint">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">576</value>
@@ -23491,7 +23491,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="triggerButtonIcon">
@@ -23674,7 +23674,7 @@
     </entity>
     <entity id="saturation">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">100</value>
@@ -23682,7 +23682,7 @@
     </entity>
     <entity id="lightness">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">40</value>
@@ -23690,7 +23690,7 @@
     </entity>
     <entity id="alpha">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">100</value>
@@ -24056,7 +24056,7 @@
     </entity>
     <entity id="threshold">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="icon">
@@ -24114,12 +24114,12 @@
     </entity>
     <entity id="gutterSize">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="step">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">5</value>
@@ -24175,12 +24175,12 @@
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="minSize">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -24571,7 +24571,7 @@
     </entity>
     <entity id="transitionDelay">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="type">
@@ -24581,7 +24581,7 @@
     </entity>
     <entity id="radius">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.IntegerType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="mask">
@@ -24680,7 +24680,7 @@
     </entity>
     <entity id="badge">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">null</value>
