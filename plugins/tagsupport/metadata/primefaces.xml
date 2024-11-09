@@ -3744,157 +3744,157 @@
     </entity>
     <entity id="onblur">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onchange">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondblclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onfocus">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeydown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeypress">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeyup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousedown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousemove">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseover">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onwheel">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onselect">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncut">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncopy">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onpaste">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oninput">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncontextmenu">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oninvalid">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onreset">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onsearch">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondrag">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondragend">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondragenter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondragleave">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondragover">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondragstart">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondrop">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onscroll">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="readonly">
@@ -4744,22 +4744,22 @@
     </entity>
     <entity id="onstart">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncomplete">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onerror">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onsuccess">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="global">
@@ -4867,72 +4867,72 @@
     </entity>
     <entity id="onblur">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onchange">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondblclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onfocus">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeydown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeypress">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeyup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousedown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousemove">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseover">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onselect">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="icon">
@@ -5086,22 +5086,22 @@
     </entity>
     <entity id="onstart">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncomplete">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onerror">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onsuccess">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="global">
@@ -5237,62 +5237,62 @@
     </entity>
     <entity id="onblur">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="ondblclick">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onfocus">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeydown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeypress">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onkeyup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousedown">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmousemove">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseout">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseover">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onmouseup">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="validateClient">
@@ -7295,12 +7295,12 @@
     </entity>
     <entity id="onShow">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onHide">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="appendTo">
@@ -7639,17 +7639,17 @@
     </entity>
     <entity id="onStart">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onStop">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onDrag">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="cancel">
@@ -7701,7 +7701,7 @@
     </entity>
     <entity id="onDrop">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="accept">
@@ -8143,32 +8143,32 @@
     </entity>
     <entity id="onupload">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onstart">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncomplete">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onerror">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="onvalidationfailure">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="oncancel">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
       </trait>
     </entity>
     <entity id="disabled">
