@@ -832,7 +832,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -1423,7 +1423,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="ismap">
@@ -1712,7 +1712,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="tabindex">
@@ -2002,7 +2002,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -2701,7 +2701,7 @@
     </entity>
     <entity id="language">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">en</value>
@@ -3083,7 +3083,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -3522,7 +3522,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -4622,7 +4622,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="tabindex">
@@ -4964,7 +4964,7 @@
     </entity>
     <entity id="hreflang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="rel">
@@ -8507,7 +8507,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="ismap">
@@ -9530,7 +9530,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -9888,7 +9888,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -10470,7 +10470,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -10813,7 +10813,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="onblur">
@@ -11199,7 +11199,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -11833,7 +11833,7 @@
     </entity>
     <entity id="hreflang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="rel">
@@ -12051,7 +12051,7 @@
     </entity>
     <entity id="hreflang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="rel">
@@ -13724,7 +13724,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="tabindex">
@@ -14386,7 +14386,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -18685,7 +18685,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -19157,7 +19157,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="tabindex">
@@ -22924,7 +22924,7 @@
     </entity>
     <entity id="lang">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LanguageCodeType</value>
       </trait>
     </entity>
     <entity id="locale">
