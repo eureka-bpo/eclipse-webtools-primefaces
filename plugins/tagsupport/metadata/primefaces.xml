@@ -133,7 +133,10 @@
   <entity id="fileDownload" type="tag">
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="contentDisposition">
@@ -465,7 +468,14 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
-    <entity id="value"/>
+    <entity id="value">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
+    </entity>
     <entity id="multiple">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
@@ -647,7 +657,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="player">
@@ -727,7 +740,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -1359,7 +1375,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="alt">
@@ -1891,7 +1910,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -2627,7 +2649,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -2736,7 +2761,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -2963,7 +2991,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -3374,7 +3405,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
   </entity>
@@ -3396,7 +3430,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -4113,7 +4150,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -4432,7 +4472,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -4771,7 +4814,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -5408,7 +5454,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -5593,7 +5642,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -5771,7 +5823,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -5884,7 +5939,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -6570,7 +6628,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -6827,7 +6888,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -7673,7 +7737,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -8075,7 +8142,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -8384,7 +8454,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="alt">
@@ -8974,7 +9047,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -9362,7 +9438,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -9717,7 +9796,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -10172,7 +10254,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -10293,7 +10378,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -10638,7 +10726,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -11016,7 +11107,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -11492,7 +11586,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -12142,7 +12239,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="player">
@@ -12592,7 +12692,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -13096,7 +13199,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -13288,7 +13394,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -14185,7 +14294,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -14594,7 +14706,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -14739,7 +14854,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -15364,7 +15482,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -15476,7 +15597,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -16266,7 +16390,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -16405,7 +16532,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -16528,7 +16658,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -16770,7 +16903,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -16868,7 +17004,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -17007,7 +17146,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -17185,7 +17327,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -17291,7 +17436,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -17451,7 +17599,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -17730,7 +17881,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -18018,7 +18172,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -18436,7 +18593,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -18865,7 +19025,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -19542,7 +19705,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -20010,7 +20176,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -20714,7 +20883,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -20900,7 +21072,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -21114,7 +21289,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -21913,7 +22091,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -22046,7 +22227,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="player">
@@ -22648,7 +22832,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -23683,7 +23870,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
@@ -24084,7 +24274,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="var">
@@ -24246,7 +24439,10 @@
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.taglibprocessing.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
+      </trait>
+      <trait id="runtime-type-setter-required">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="converter">
