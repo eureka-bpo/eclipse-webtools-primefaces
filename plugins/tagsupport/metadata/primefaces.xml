@@ -394,7 +394,7 @@
   <entity id="accordionPanel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -540,7 +540,7 @@
   <entity id="ajaxExceptionHandler" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -572,7 +572,7 @@
   <entity id="ajaxStatus" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -632,7 +632,7 @@
   <entity id="audio" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -712,7 +712,7 @@
   <entity id="autoComplete" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1299,7 +1299,7 @@
   <entity id="barcode" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1481,7 +1481,7 @@
   <entity id="blockUI" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1536,7 +1536,7 @@
   <entity id="breadCrumb" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1615,7 +1615,7 @@
   <entity id="button" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1836,7 +1836,7 @@
   <entity id="cache" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -1876,7 +1876,7 @@
   <entity id="calendar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -2612,7 +2612,7 @@
   <entity id="captcha" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -2716,7 +2716,7 @@
   <entity id="carousel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -2869,7 +2869,7 @@
   <entity id="cellEditor" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -2891,7 +2891,7 @@
   <entity id="checkbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -2948,7 +2948,7 @@
   <entity id="chips" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -3306,7 +3306,7 @@
   <entity id="clock" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -3381,7 +3381,7 @@
   <entity id="colorPicker" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -3793,7 +3793,7 @@
   <entity id="column" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -4070,7 +4070,7 @@
   <entity id="columnGroup" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -4098,7 +4098,7 @@
   <entity id="columns" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -4385,7 +4385,7 @@
   <entity id="columnToggler" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -4417,7 +4417,7 @@
   <entity id="commandButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -4756,7 +4756,7 @@
   <entity id="commandLink" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5080,7 +5080,7 @@
   <entity id="confirmDialog" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5246,7 +5246,7 @@
   <entity id="contextMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5334,7 +5334,7 @@
   <entity id="dashboard" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5393,7 +5393,7 @@
   <entity id="dataGrid" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5578,7 +5578,7 @@
   <entity id="dataList" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5756,7 +5756,7 @@
   <entity id="dataScroller" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -5869,7 +5869,7 @@
   <entity id="dataTable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6555,7 +6555,7 @@
   <entity id="dataView" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6723,7 +6723,7 @@
   <entity id="dataViewGridItem" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6748,7 +6748,7 @@
   <entity id="dataViewListItem" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6765,7 +6765,7 @@
   <entity id="defaultCommand" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6797,7 +6797,7 @@
   <entity id="diagram" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6812,7 +6812,7 @@
     </entity>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -6859,7 +6859,7 @@
   <entity id="dialog" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7126,7 +7126,7 @@
   <entity id="dock" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7209,7 +7209,7 @@
   <entity id="draggable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7385,7 +7385,7 @@
   <entity id="droppable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7463,7 +7463,7 @@
   <entity id="effect" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7539,7 +7539,7 @@
   <entity id="feedReader" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7571,7 +7571,7 @@
   <entity id="fieldset" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7658,7 +7658,7 @@
   <entity id="fileUpload" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -7996,7 +7996,7 @@
   <entity id="focus" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8028,7 +8028,7 @@
   <entity id="fragment" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8055,7 +8055,7 @@
   <entity id="galleria" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8224,7 +8224,7 @@
   <entity id="gmap" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8344,7 +8344,7 @@
   <entity id="gmapInfoWindow" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8369,7 +8369,7 @@
   <entity id="graphicImage" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8544,7 +8544,7 @@
   <entity id="growl" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8648,7 +8648,7 @@
   <entity id="headerRow" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8711,7 +8711,7 @@
   <entity id="hotkey" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8862,7 +8862,7 @@
   <entity id="idleMonitor" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8907,7 +8907,7 @@
   <entity id="imageCompare" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -8959,7 +8959,7 @@
   <entity id="imageCropper" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -9118,7 +9118,7 @@
   <entity id="imageSwitch" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -9218,7 +9218,7 @@
   <entity id="inplace" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -9347,7 +9347,7 @@
   <entity id="inputMask" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -9702,7 +9702,7 @@
   <entity id="inputNumber" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -10157,7 +10157,7 @@
   <entity id="inputSwitch" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -10278,7 +10278,7 @@
   <entity id="inputText" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -10623,7 +10623,7 @@
   <entity id="inputTextarea" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -11422,7 +11422,7 @@
   <entity id="keyFilter" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -11477,7 +11477,7 @@
   <entity id="knob" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -11634,7 +11634,7 @@
   <entity id="lifecycle" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -11656,7 +11656,7 @@
   <entity id="link" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -11869,7 +11869,7 @@
   <entity id="linkButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12105,7 +12105,7 @@
   <entity id="log" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12127,7 +12127,7 @@
   <entity id="media" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12192,7 +12192,7 @@
   <entity id="megaMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12277,7 +12277,7 @@
   <entity id="menu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12377,7 +12377,7 @@
   <entity id="menubar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12473,7 +12473,7 @@
   <entity id="menuButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12577,7 +12577,7 @@
   <entity id="menuitem" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12824,7 +12824,7 @@
   <entity id="message" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -12921,7 +12921,7 @@
   <entity id="messages" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13040,7 +13040,7 @@
   <entity id="mindmap" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13081,7 +13081,7 @@
   <entity id="multiSelectListbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13199,7 +13199,7 @@
   <entity id="notificationBar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13273,7 +13273,7 @@
   <entity id="orderList" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13449,7 +13449,7 @@
   <entity id="organigram" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13503,7 +13503,7 @@
   <entity id="organigramNode" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13563,7 +13563,7 @@
   <entity id="outputLabel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13712,7 +13712,7 @@
   <entity id="outputPanel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13780,7 +13780,7 @@
   <entity id="overlayPanel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -13921,7 +13921,7 @@
   <entity id="panel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -14061,7 +14061,7 @@
   <entity id="panelGrid" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -14121,7 +14121,7 @@
   <entity id="panelMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -14170,7 +14170,7 @@
   <entity id="password" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -14579,7 +14579,7 @@
   <entity id="photoCam" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -14724,7 +14724,7 @@
   <entity id="pickList" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15015,7 +15015,7 @@
   <entity id="poll" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15187,7 +15187,7 @@
   <entity id="progressBar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15292,7 +15292,7 @@
   <entity id="radioButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15349,7 +15349,7 @@
   <entity id="rating" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15461,7 +15461,7 @@
   <entity id="remoteCommand" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15611,7 +15611,7 @@
   <entity id="resizable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15802,7 +15802,7 @@
   <entity id="row" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15829,7 +15829,7 @@
   <entity id="rowEditor" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15871,7 +15871,7 @@
   <entity id="rowExpansion" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15893,7 +15893,7 @@
   <entity id="rowToggler" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -15925,7 +15925,7 @@
   <entity id="schedule" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16214,7 +16214,7 @@
   <entity id="scrollPanel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16251,7 +16251,7 @@
   <entity id="selectBooleanButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16390,7 +16390,7 @@
   <entity id="selectBooleanCheckbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16513,7 +16513,7 @@
   <entity id="selectCheckboxMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16755,7 +16755,7 @@
   <entity id="selectManyButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16853,7 +16853,7 @@
   <entity id="selectManyCheckbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -16992,7 +16992,7 @@
   <entity id="selectManyMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17170,7 +17170,7 @@
   <entity id="selectOneButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17276,7 +17276,7 @@
   <entity id="selectOneListbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17436,7 +17436,7 @@
   <entity id="selectOneMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17715,7 +17715,7 @@
   <entity id="selectOneRadio" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17872,7 +17872,7 @@
   <entity id="separator" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -17904,7 +17904,7 @@
   <entity id="sidebar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18003,7 +18003,7 @@
   <entity id="signature" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18180,7 +18180,7 @@
   <entity id="slideMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18252,7 +18252,7 @@
   <entity id="slider" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18379,7 +18379,7 @@
   <entity id="spacer" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18421,7 +18421,7 @@
   <entity id="spinner" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -18850,7 +18850,7 @@
   <entity id="splitButton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19232,7 +19232,7 @@
   <entity id="spotlight" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19269,7 +19269,7 @@
   <entity id="stack" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19318,7 +19318,7 @@
   <entity id="staticMessage" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19388,7 +19388,7 @@
   <entity id="steps" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19445,7 +19445,7 @@
   <entity id="sticky" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19480,7 +19480,7 @@
   <entity id="submenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19527,7 +19527,7 @@
   <entity id="subTable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19567,7 +19567,7 @@
   <entity id="summaryRow" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19589,7 +19589,7 @@
   <entity id="tab" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19646,7 +19646,7 @@
   <entity id="tabMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19703,7 +19703,7 @@
   <entity id="tabView" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19909,7 +19909,7 @@
   <entity id="tagCloud" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19942,7 +19942,7 @@
   <entity id="terminal" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -19995,7 +19995,7 @@
   <entity id="textEditor" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20131,7 +20131,7 @@
   <entity id="tieredMenu" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20250,7 +20250,7 @@
   <entity id="timeline" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20699,7 +20699,7 @@
   <entity id="toggleSwitch" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20817,7 +20817,7 @@
   <entity id="toolbar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20844,7 +20844,7 @@
   <entity id="toolbarGroup" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -20885,7 +20885,7 @@
   <entity id="tooltip" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -21094,7 +21094,7 @@
   <entity id="tree" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -21418,7 +21418,7 @@
   <entity id="treeNode" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -21468,7 +21468,7 @@
   <entity id="treeTable" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -21893,7 +21893,7 @@
   <entity id="triStateCheckbox" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="escape">
@@ -22031,7 +22031,7 @@
   <entity id="video" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22141,7 +22141,7 @@
   <entity id="wizard" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22272,7 +22272,7 @@
   <entity id="chart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22329,7 +22329,7 @@
   <entity id="barChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22367,7 +22367,7 @@
   <entity id="bubbleChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22405,7 +22405,7 @@
   <entity id="donutChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22443,7 +22443,7 @@
   <entity id="lineChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22481,7 +22481,7 @@
   <entity id="scatterChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22519,7 +22519,7 @@
   <entity id="pieChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22557,7 +22557,7 @@
   <entity id="polarAreaChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22595,7 +22595,7 @@
   <entity id="radarChart" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -22633,7 +22633,7 @@
   <entity id="datePicker" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23407,7 +23407,7 @@
   <entity id="avatar" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23513,7 +23513,7 @@
   <entity id="avatarGroup" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23540,7 +23540,7 @@
   <entity id="badge" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23611,7 +23611,7 @@
   <entity id="chip" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23668,7 +23668,7 @@
   <entity id="tag" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23720,7 +23720,7 @@
   <entity id="skeleton" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23772,7 +23772,7 @@
   <entity id="divider" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23835,7 +23835,7 @@
   <entity id="scrollTop" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23893,7 +23893,7 @@
   <entity id="splitter" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -23970,7 +23970,7 @@
   <entity id="splitterPanel" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -24022,7 +24022,7 @@
   <entity id="card" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -24069,7 +24069,7 @@
   <entity id="chronoline" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -24130,7 +24130,7 @@
   <entity id="confirmPopup" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -24231,7 +24231,7 @@
   <entity id="cascadeSelect" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
@@ -24328,7 +24328,7 @@
   <entity id="speedDial" type="tag">
     <entity id="id">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
       </trait>
     </entity>
     <entity id="rendered">
