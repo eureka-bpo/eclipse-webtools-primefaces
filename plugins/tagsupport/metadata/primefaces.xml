@@ -6134,6 +6134,12 @@
     </entity>
   </entity>
   <entity id="dataTable" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
