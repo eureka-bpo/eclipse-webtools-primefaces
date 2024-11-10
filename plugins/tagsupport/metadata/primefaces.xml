@@ -2405,7 +2405,7 @@
     </entity>
     <entity id="pattern">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DateTimePatternType</value>
       </trait>
     </entity>
     <entity id="locale">
@@ -2423,7 +2423,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="readonlyInput">
@@ -3584,7 +3584,7 @@
     </entity>
     <entity id="pattern">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DateTimePatternType</value>
       </trait>
     </entity>
     <entity id="mode">
@@ -3613,7 +3613,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="displayMode">
@@ -16967,12 +16967,12 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="clientTimeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">local</value>
@@ -21550,12 +21550,12 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="clientTimeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="height">
@@ -24331,7 +24331,7 @@
     </entity>
     <entity id="pattern">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DateTimePatternType</value>
       </trait>
     </entity>
     <entity id="type">
@@ -24662,7 +24662,7 @@
     </entity>
     <entity id="timeZone">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.TimeZoneType</value>
       </trait>
     </entity>
     <entity id="triggerButtonIcon">
