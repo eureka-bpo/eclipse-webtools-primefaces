@@ -2384,7 +2384,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="navigator">
@@ -6519,7 +6519,7 @@
     </entity>
     <entity id="dataLocale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="nativeElements">
@@ -16633,7 +16633,7 @@
     <entity id="value"/>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="dir">
@@ -21322,7 +21322,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="timeZone">
@@ -22655,7 +22655,7 @@
     </entity>
     <entity id="dataLocale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="skipChildren">
@@ -23860,7 +23860,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="maxlength">
@@ -24122,7 +24122,7 @@
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LocaleType</value>
       </trait>
     </entity>
     <entity id="buttonTabindex">
