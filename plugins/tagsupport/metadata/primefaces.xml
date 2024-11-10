@@ -395,6 +395,12 @@
     </entity>
   </entity>
   <entity id="accordionPanel" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>title</item>
+        <item>options</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -580,6 +586,15 @@
     </entity>
   </entity>
   <entity id="ajaxStatus" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>default</item>
+        <item>start</item>
+        <item>complete</item>
+        <item>error</item>
+        <item>success</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -723,6 +738,12 @@
     </entity>
   </entity>
   <entity id="autoComplete" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>footer</item>
+        <item>itemtip</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -1658,6 +1679,11 @@
     </entity>
   </entity>
   <entity id="breadCrumb" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>options</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -2905,6 +2931,12 @@
     </entity>
   </entity>
   <entity id="carousel" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -3061,6 +3093,12 @@
     </entity>
   </entity>
   <entity id="cellEditor" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>input</item>
+        <item>output</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -4040,6 +4078,13 @@
     </entity>
   </entity>
   <entity id="column" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>filter</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5336,6 +5381,12 @@
     </entity>
   </entity>
   <entity id="confirmDialog" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>message</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5649,6 +5700,13 @@
     </entity>
   </entity>
   <entity id="dataGrid" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>emptyMessage</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5837,6 +5895,13 @@
     </entity>
   </entity>
   <entity id="dataList" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>description</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -6018,6 +6083,13 @@
     </entity>
   </entity>
   <entity id="dataScroller" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>loader</item>
+        <item>loading</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -6138,6 +6210,7 @@
       <value xsi:type="mdt:ListOfValues">
         <item>header</item>
         <item>footer</item>
+        <item>emptyMessage</item>
       </value>
     </trait>
     <entity id="id">
@@ -6829,6 +6902,13 @@
     </entity>
   </entity>
   <entity id="dataView" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>emptyMessage</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7074,6 +7154,11 @@
     </entity>
   </entity>
   <entity id="diagram" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>element</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7139,6 +7224,12 @@
     </entity>
   </entity>
   <entity id="dialog" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7819,6 +7910,11 @@
     </entity>
   </entity>
   <entity id="feedReader" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>error</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7851,6 +7947,11 @@
     </entity>
   </entity>
   <entity id="fieldset" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>legend</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -8361,6 +8462,14 @@
     </entity>
   </entity>
   <entity id="galleria" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>thumbnail</item>
+        <item>indicator</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -9562,6 +9671,12 @@
     </entity>
   </entity>
   <entity id="inplace" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>input</item>
+        <item>output</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -12721,6 +12836,13 @@
     </entity>
   </entity>
   <entity id="megaMenu" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>start</item>
+        <item>end</item>
+        <item>options</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13106,6 +13228,11 @@
     </entity>
   </entity>
   <entity id="menuitem" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>custom</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13831,6 +13958,11 @@
     </entity>
   </entity>
   <entity id="orderList" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>caption</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -14296,6 +14428,11 @@
     </entity>
   </entity>
   <entity id="outputPanel" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>loading</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -14505,6 +14642,14 @@
     </entity>
   </entity>
   <entity id="panel" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+        <item>options</item>
+        <item>actions</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -15360,6 +15505,12 @@
     </entity>
   </entity>
   <entity id="pickList" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>sourceCaption</item>
+        <item>targetCaption</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -16520,6 +16671,12 @@
     </entity>
   </entity>
   <entity id="rowEditor" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>input</item>
+        <item>output</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -17256,6 +17413,12 @@
     </entity>
   </entity>
   <entity id="selectCheckboxMenu" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -17648,6 +17811,11 @@
     </entity>
   </entity>
   <entity id="selectManyCheckbox" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>custom</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -18335,6 +18503,12 @@
     </entity>
   </entity>
   <entity id="selectOneMenu" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -18640,6 +18814,11 @@
     </entity>
   </entity>
   <entity id="selectOneRadio" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>custom</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -20533,6 +20712,12 @@
     </entity>
   </entity>
   <entity id="subTable" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -20598,6 +20783,11 @@
     </entity>
   </entity>
   <entity id="tab" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>options</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -20712,6 +20902,13 @@
     </entity>
   </entity>
   <entity id="tabView" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>title</item>
+        <item>actions</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21004,6 +21201,11 @@
     </entity>
   </entity>
   <entity id="textEditor" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>toolbar</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21166,6 +21368,13 @@
     </entity>
   </entity>
   <entity id="tieredMenu" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>start</item>
+        <item>end</item>
+        <item>options</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21285,6 +21494,14 @@
     </entity>
   </entity>
   <entity id="timeline" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>menu</item>
+        <item>loading</item>
+        <item>eventTitle</item>
+        <item>group</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21878,6 +22095,12 @@
     </entity>
   </entity>
   <entity id="toolbar" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>left</item>
+        <item>right</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -22535,6 +22758,12 @@
     </entity>
   </entity>
   <entity id="treeTable" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>header</item>
+        <item>footer</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -23368,6 +23597,11 @@
     </entity>
   </entity>
   <entity id="chart" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>value</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25194,6 +25428,11 @@
     </entity>
   </entity>
   <entity id="chronoline" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>opposite</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25258,6 +25497,11 @@
     </entity>
   </entity>
   <entity id="confirmPopup" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>message</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25359,6 +25603,11 @@
     </entity>
   </entity>
   <entity id="cascadeSelect" type="tag">
+    <trait id="valid-facets">
+      <value xsi:type="mdt:ListOfValues">
+        <item>content</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
