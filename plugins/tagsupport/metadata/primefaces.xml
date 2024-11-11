@@ -242,7 +242,7 @@
     </entity>
     <entity id="event">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.AjaxType</value>
       </trait>
     </entity>
     <entity id="partialSubmit">
@@ -399,6 +399,12 @@
       <value xsi:type="mdt:ListOfValues">
         <item>title</item>
         <item>options</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>tabChange</item>
+        <item>tabClose</item>
       </value>
     </trait>
     <entity id="id">
@@ -2936,6 +2942,11 @@
         <item>header</item>
         <item>footer</item>
       </value>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>pageChange</item>
+      </value>
+    </trait>
     </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
@@ -3640,6 +3651,13 @@
     </entity>
   </entity>
   <entity id="colorPicker" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+        <item>open</item>
+        <item>close</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -4680,6 +4698,12 @@
     </entity>
   </entity>
   <entity id="columnToggler" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>toggle</item>
+        <item>close</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -4712,6 +4736,12 @@
     </entity>
   </entity>
   <entity id="commandButton" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>click</item>
+        <item>dialogReturn</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5054,6 +5084,12 @@
     </entity>
   </entity>
   <entity id="commandLink" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>click</item>
+        <item>dialogReturn</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5641,6 +5677,11 @@
     </entity>
   </entity>
   <entity id="dashboard" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>reorder</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -5705,6 +5746,11 @@
         <item>header</item>
         <item>footer</item>
         <item>emptyMessage</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>page</item>
       </value>
     </trait>
     <entity id="id">
@@ -5902,6 +5948,13 @@
         <item>description</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>page</item>
+        <item>tap</item>
+        <item>taphold</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -6090,6 +6143,11 @@
         <item>loading</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>load</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -6211,6 +6269,35 @@
         <item>header</item>
         <item>footer</item>
         <item>emptyMessage</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>page</item>
+        <item>sort</item>
+        <item>filter</item>
+        <item>rowSelect</item>
+        <item>rowUnselect</item>
+        <item>rowEdit</item>
+        <item>rowEditInit</item>
+        <item>rowEditCancel</item>
+        <item>colResize</item>
+        <item>toggleSelect</item>
+        <item>colReorder</item>
+        <item>contextMenu</item>
+        <item>rowSelectRadio</item>
+        <item>rowSelectCheckbox</item>
+        <item>rowUnselectCheckbox</item>
+        <item>rowDblselect</item>
+        <item>rowToggle</item>
+        <item>cellEditInit</item>
+        <item>cellEdit</item>
+        <item>rowReorder</item>
+        <item>tap</item>
+        <item>taphold</item>
+        <item>cellEditCancel</item>
+        <item>virtualScroll</item>
+        <item>liveScroll</item>
       </value>
     </trait>
     <entity id="id">
@@ -6909,6 +6996,11 @@
         <item>emptyMessage</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>page</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7159,6 +7251,14 @@
         <item>element</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>connect</item>
+        <item>disconnect</item>
+        <item>connectionChange</item>
+        <item>positionChange</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7228,6 +7328,20 @@
       <value xsi:type="mdt:ListOfValues">
         <item>header</item>
         <item>footer</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>close</item>
+        <item>minimize</item>
+        <item>maximize</item>
+        <item>move</item>
+        <item>restoreMinimize</item>
+        <item>restoreMaximize</item>
+        <item>open</item>
+        <item>loadContent</item>
+        <item>resizeStart</item>
+        <item>resizeStop</item>
       </value>
     </trait>
     <entity id="id">
@@ -7756,6 +7870,11 @@
     </entity>
   </entity>
   <entity id="droppable" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>drop</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -7950,6 +8069,11 @@
     <trait id="valid-facets">
       <value xsi:type="mdt:ListOfValues">
         <item>legend</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>toggle</item>
       </value>
     </trait>
     <entity id="id">
@@ -8648,6 +8772,18 @@
     </entity>
   </entity>
   <entity id="gmap" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>overlaySelect</item>
+        <item>overlayDblSelect</item>
+        <item>stateChange</item>
+        <item>pointSelect</item>
+        <item>pointDblSelect</item>
+        <item>markerDrag</item>
+        <item>geocode</item>
+        <item>reverseGeocode</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -9289,6 +9425,12 @@
     </entity>
   </entity>
   <entity id="idleMonitor" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>idle</item>
+        <item>active</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -9675,6 +9817,12 @@
       <value xsi:type="mdt:ListOfValues">
         <item>input</item>
         <item>output</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>save</item>
+        <item>cancel</item>
       </value>
     </trait>
     <entity id="id">
@@ -12092,6 +12240,11 @@
     </entity>
   </entity>
   <entity id="knob" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13233,6 +13386,12 @@
         <item>custom</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>click</item>
+        <item>dialogReturn</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13699,6 +13858,12 @@
     </entity>
   </entity>
   <entity id="mindmap" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+        <item>dblselect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13740,6 +13905,13 @@
     </entity>
   </entity>
   <entity id="multiSelectListbox" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -13963,6 +14135,13 @@
         <item>caption</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+        <item>unselect</item>
+        <item>reorder</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -14165,6 +14344,15 @@
     </entity>
   </entity>
   <entity id="organigram" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+        <item>expand</item>
+        <item>collapse</item>
+        <item>dragdrop</item>
+        <item>contextmenu</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -14428,6 +14616,11 @@
     </entity>
   </entity>
   <entity id="outputPanel" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>load</item>
+      </value>
+    </trait>
     <trait id="valid-facets">
       <value xsi:type="mdt:ListOfValues">
         <item>loading</item>
@@ -14501,6 +14694,13 @@
     </entity>
   </entity>
   <entity id="overlayPanel" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>show</item>
+        <item>hide</item>
+        <item>loadContent</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -14648,6 +14848,12 @@
         <item>footer</item>
         <item>options</item>
         <item>actions</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>toggle</item>
+        <item>close</item>
       </value>
     </trait>
     <entity id="id">
@@ -15511,6 +15717,14 @@
         <item>targetCaption</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>transfer</item>
+        <item>select</item>
+        <item>unselect</item>
+        <item>reorder</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -16000,6 +16214,11 @@
     </entity>
   </entity>
   <entity id="progressBar" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>complete</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -16162,6 +16381,12 @@
     </entity>
   </entity>
   <entity id="rating" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>rate</item>
+        <item>cancel</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -16453,6 +16678,11 @@
     </entity>
   </entity>
   <entity id="resizable" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>resize</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -16773,6 +17003,18 @@
     </entity>
   </entity>
   <entity id="schedule" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>dateSelect</item>
+        <item>dateDblSelect</item>
+        <item>eventSelect</item>
+        <item>eventDblSelect</item>
+        <item>eventMove</item>
+        <item>eventResize</item>
+        <item>viewChange</item>
+        <item>rangeSelect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -17419,6 +17661,14 @@
         <item>footer</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+        <item>toggleSelect</item>
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -17687,6 +17937,11 @@
     </entity>
   </entity>
   <entity id="selectManyButton" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -17981,6 +18236,12 @@
     </entity>
   </entity>
   <entity id="selectManyMenu" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -18185,6 +18446,11 @@
     </entity>
   </entity>
   <entity id="selectOneButton" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -18317,6 +18583,12 @@
     </entity>
   </entity>
   <entity id="selectOneListbox" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -19034,6 +19306,13 @@
     </entity>
   </entity>
   <entity id="sidebar" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>close</item>
+        <item>open</item>
+        <item>loadContent</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -19408,6 +19687,11 @@
     </entity>
   </entity>
   <entity id="slider" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>slideEnd</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -20909,6 +21193,12 @@
         <item>footer</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>tabChange</item>
+        <item>tabClose</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21115,6 +21405,11 @@
     </entity>
   </entity>
   <entity id="tagCloud" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21148,6 +21443,11 @@
     </entity>
   </entity>
   <entity id="terminal" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>command</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -21500,6 +21800,20 @@
         <item>loading</item>
         <item>eventTitle</item>
         <item>group</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>add</item>
+        <item>change</item>
+        <item>changed</item>
+        <item>edit</item>
+        <item>delete</item>
+        <item>select</item>
+        <item>rangechange</item>
+        <item>rangechanged</item>
+        <item>lazyload</item>
+        <item>drop</item>
       </value>
     </trait>
     <entity id="id">
@@ -21951,6 +22265,11 @@
     </entity>
   </entity>
   <entity id="toggleSwitch" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -22381,6 +22700,17 @@
     </entity>
   </entity>
   <entity id="tree" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+        <item>unselect</item>
+        <item>expand</item>
+        <item>collapse</item>
+        <item>dragdrop</item>
+        <item>contextMenu</item>
+        <item>filter</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -22762,6 +23092,25 @@
       <value xsi:type="mdt:ListOfValues">
         <item>header</item>
         <item>footer</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>contextMenu</item>
+        <item>select</item>
+        <item>unselect</item>
+        <item>expand</item>
+        <item>collapse</item>
+        <item>colResize</item>
+        <item>sort</item>
+        <item>filter</item>
+        <item>rowEdit</item>
+        <item>rowEditInit</item>
+        <item>rowEditCancel</item>
+        <item>cellEdit</item>
+        <item>cellEditInit</item>
+        <item>cellEditCancel</item>
+        <item>page</item>
       </value>
     </trait>
     <entity id="id">
@@ -23466,6 +23815,12 @@
     </entity>
   </entity>
   <entity id="wizard" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>next</item>
+        <item>back</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -23600,6 +23955,11 @@
     <trait id="valid-facets">
       <value xsi:type="mdt:ListOfValues">
         <item>value</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>itemSelect</item>
       </value>
     </trait>
     <entity id="id">
@@ -24967,6 +25327,12 @@
     </entity>
   </entity>
   <entity id="chip" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>select</item>
+        <item>close</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25252,6 +25618,11 @@
     </entity>
   </entity>
   <entity id="splitter" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>resizeEnd</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25606,6 +25977,11 @@
     <trait id="valid-facets">
       <value xsi:type="mdt:ListOfValues">
         <item>content</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>itemSelect</item>
       </value>
     </trait>
     <entity id="id">

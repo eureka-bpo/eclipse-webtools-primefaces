@@ -9,4 +9,9 @@
             location="$nl$/metadata/primefaces.xml"
             uri="primefaces"/>
    </extension>
+   <extension point="org.eclipse.jst.jsf.core.AttributeValueRuntimeTypes">
+      <attributeValueRuntimeType
+            class="eu.eurekabpo.eclipse.webtools.primefaces.taglibprocessing.attributevalues.AjaxType"
+            id="attributevalues.AjaxType"/>
+   </extension>
 </plugin>
