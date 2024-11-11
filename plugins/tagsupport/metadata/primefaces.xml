@@ -49,16 +49,25 @@
   </entity>
   <entity id="dataExporter" type="tag">
     <entity id="target">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="type">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="fileName">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -132,6 +141,9 @@
   </entity>
   <entity id="fileDownload" type="tag">
     <entity id="value">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
       </trait>
@@ -340,6 +352,9 @@
   </entity>
   <entity id="resetInput" type="tag">
     <entity id="target">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -364,6 +379,9 @@
   </entity>
   <entity id="importConstants" type="tag">
     <entity id="type">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -376,6 +394,9 @@
   </entity>
   <entity id="importEnum" type="tag">
     <entity id="type">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -4432,6 +4453,9 @@
       </trait>
     </entity>
     <entity id="var">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -4725,11 +4749,17 @@
       </trait>
     </entity>
     <entity id="trigger">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="datasource">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -7235,6 +7265,9 @@
       </trait>
     </entity>
     <entity id="target">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -7974,11 +8007,17 @@
       </trait>
     </entity>
     <entity id="event">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="type">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -8050,11 +8089,17 @@
       </trait>
     </entity>
     <entity id="value">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="var">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -8816,16 +8861,25 @@
       </trait>
     </entity>
     <entity id="type">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="center">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
     <entity id="zoom">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
@@ -9314,6 +9368,9 @@
       </trait>
     </entity>
     <entity id="bind">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -9616,6 +9673,9 @@
       </trait>
     </entity>
     <entity id="image">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
@@ -9744,6 +9804,9 @@
       </trait>
     </entity>
     <entity id="effect">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -20813,6 +20876,9 @@
       </trait>
     </entity>
     <entity id="severity">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -20935,6 +21001,9 @@
       </trait>
     </entity>
     <entity id="target">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
@@ -21430,7 +21499,11 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
-    <entity id="model"/>
+    <entity id="model">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
+    </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType</value>
@@ -21851,7 +21924,11 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
-    <entity id="value"/>
+    <entity id="value">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
+    </entity>
     <entity id="varGroup">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
@@ -23133,7 +23210,11 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
-    <entity id="value"/>
+    <entity id="value">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
+    </entity>
     <entity id="var">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
@@ -25820,6 +25901,9 @@
       </trait>
     </entity>
     <entity id="value">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType</value>
       </trait>
@@ -25828,6 +25912,9 @@
       </trait>
     </entity>
     <entity id="var">
+      <trait id="required">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
