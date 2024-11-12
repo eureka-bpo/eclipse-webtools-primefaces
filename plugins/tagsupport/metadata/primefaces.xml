@@ -4218,9 +4218,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%column.filterMatchMode.displayed-values.startsWith</item>
+          <item>%column.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%column.filterMatchMode.displayed-values.endsWith</item>
+          <item>%column.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%column.filterMatchMode.displayed-values.contains</item>
+          <item>%column.filterMatchMode.displayed-values.notContains</item>
+          <item>%column.filterMatchMode.displayed-values.exact</item>
+          <item>%column.filterMatchMode.displayed-values.notExact</item>
+          <item>%column.filterMatchMode.displayed-values.lt</item>
+          <item>%column.filterMatchMode.displayed-values.lte</item>
+          <item>%column.filterMatchMode.displayed-values.gt</item>
+          <item>%column.filterMatchMode.displayed-values.gte</item>
+          <item>%column.filterMatchMode.displayed-values.equals</item>
+          <item>%column.filterMatchMode.displayed-values.notEquals</item>
+          <item>%column.filterMatchMode.displayed-values.in</item>
+          <item>%column.filterMatchMode.displayed-values.notIn</item>
+          <item>%column.filterMatchMode.displayed-values.between</item>
+          <item>%column.filterMatchMode.displayed-values.notBetween</item>
+          <item>%column.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -4539,9 +4577,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%columns.filterMatchMode.displayed-values.startsWith</item>
+          <item>%columns.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%columns.filterMatchMode.displayed-values.endsWith</item>
+          <item>%columns.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%columns.filterMatchMode.displayed-values.contains</item>
+          <item>%columns.filterMatchMode.displayed-values.notContains</item>
+          <item>%columns.filterMatchMode.displayed-values.exact</item>
+          <item>%columns.filterMatchMode.displayed-values.notExact</item>
+          <item>%columns.filterMatchMode.displayed-values.lt</item>
+          <item>%columns.filterMatchMode.displayed-values.lte</item>
+          <item>%columns.filterMatchMode.displayed-values.gt</item>
+          <item>%columns.filterMatchMode.displayed-values.gte</item>
+          <item>%columns.filterMatchMode.displayed-values.equals</item>
+          <item>%columns.filterMatchMode.displayed-values.notEquals</item>
+          <item>%columns.filterMatchMode.displayed-values.in</item>
+          <item>%columns.filterMatchMode.displayed-values.notIn</item>
+          <item>%columns.filterMatchMode.displayed-values.between</item>
+          <item>%columns.filterMatchMode.displayed-values.notBetween</item>
+          <item>%columns.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -16012,9 +16088,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%pickList.filterMatchMode.displayed-values.startsWith</item>
+          <item>%pickList.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%pickList.filterMatchMode.displayed-values.endsWith</item>
+          <item>%pickList.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%pickList.filterMatchMode.displayed-values.contains</item>
+          <item>%pickList.filterMatchMode.displayed-values.notContains</item>
+          <item>%pickList.filterMatchMode.displayed-values.exact</item>
+          <item>%pickList.filterMatchMode.displayed-values.notExact</item>
+          <item>%pickList.filterMatchMode.displayed-values.lt</item>
+          <item>%pickList.filterMatchMode.displayed-values.lte</item>
+          <item>%pickList.filterMatchMode.displayed-values.gt</item>
+          <item>%pickList.filterMatchMode.displayed-values.gte</item>
+          <item>%pickList.filterMatchMode.displayed-values.equals</item>
+          <item>%pickList.filterMatchMode.displayed-values.notEquals</item>
+          <item>%pickList.filterMatchMode.displayed-values.in</item>
+          <item>%pickList.filterMatchMode.displayed-values.notIn</item>
+          <item>%pickList.filterMatchMode.displayed-values.between</item>
+          <item>%pickList.filterMatchMode.displayed-values.notBetween</item>
+          <item>%pickList.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -17874,9 +17988,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.startsWith</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.endsWith</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.contains</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notContains</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.exact</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notExact</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.lt</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.lte</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.gt</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.gte</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.equals</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notEquals</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.in</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notIn</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.between</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.notBetween</item>
+          <item>%selectCheckboxMenu.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -18465,9 +18617,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectManyMenu.filterMatchMode.displayed-values.startsWith</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.endsWith</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.contains</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notContains</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.exact</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notExact</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.lt</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.lte</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.gt</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.gte</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.equals</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notEquals</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.in</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notIn</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.between</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.notBetween</item>
+          <item>%selectManyMenu.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -18799,9 +18989,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectOneListbox.filterMatchMode.displayed-values.startsWith</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.endsWith</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.contains</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notContains</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.exact</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notExact</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.lt</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.lte</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.gt</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.gte</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.equals</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notEquals</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.in</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notIn</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.between</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.notBetween</item>
+          <item>%selectOneListbox.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -19029,9 +19257,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%selectOneMenu.filterMatchMode.displayed-values.startsWith</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.endsWith</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.contains</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notContains</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.exact</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notExact</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.lt</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.lte</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.gt</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.gte</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.equals</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notEquals</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.in</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notIn</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.between</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.notBetween</item>
+          <item>%selectOneMenu.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -20709,9 +20975,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%splitButton.filterMatchMode.displayed-values.startsWith</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%splitButton.filterMatchMode.displayed-values.endsWith</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%splitButton.filterMatchMode.displayed-values.contains</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notContains</item>
+          <item>%splitButton.filterMatchMode.displayed-values.exact</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notExact</item>
+          <item>%splitButton.filterMatchMode.displayed-values.lt</item>
+          <item>%splitButton.filterMatchMode.displayed-values.lte</item>
+          <item>%splitButton.filterMatchMode.displayed-values.gt</item>
+          <item>%splitButton.filterMatchMode.displayed-values.gte</item>
+          <item>%splitButton.filterMatchMode.displayed-values.equals</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notEquals</item>
+          <item>%splitButton.filterMatchMode.displayed-values.in</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notIn</item>
+          <item>%splitButton.filterMatchMode.displayed-values.between</item>
+          <item>%splitButton.filterMatchMode.displayed-values.notBetween</item>
+          <item>%splitButton.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
@@ -23038,9 +23342,47 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>startsWith</item>
-          <item>contains</item>
+          <item>notStartsWith</item>
           <item>endsWith</item>
+          <item>notEndsWith</item>
+          <item>contains</item>
+          <item>notContains</item>
+          <item>exact</item>
+          <item>notExact</item>
+          <item>lt</item>
+          <item>lte</item>
+          <item>gt</item>
+          <item>gte</item>
+          <item>equals</item>
+          <item>notEquals</item>
+          <item>in</item>
+          <item>notIn</item>
+          <item>between</item>
+          <item>notBetween</item>
           <item>custom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%tree.filterMatchMode.displayed-values.startsWith</item>
+          <item>%tree.filterMatchMode.displayed-values.notStartsWith</item>
+          <item>%tree.filterMatchMode.displayed-values.endsWith</item>
+          <item>%tree.filterMatchMode.displayed-values.notEndsWith</item>
+          <item>%tree.filterMatchMode.displayed-values.contains</item>
+          <item>%tree.filterMatchMode.displayed-values.notContains</item>
+          <item>%tree.filterMatchMode.displayed-values.exact</item>
+          <item>%tree.filterMatchMode.displayed-values.notExact</item>
+          <item>%tree.filterMatchMode.displayed-values.lt</item>
+          <item>%tree.filterMatchMode.displayed-values.lte</item>
+          <item>%tree.filterMatchMode.displayed-values.gt</item>
+          <item>%tree.filterMatchMode.displayed-values.gte</item>
+          <item>%tree.filterMatchMode.displayed-values.equals</item>
+          <item>%tree.filterMatchMode.displayed-values.notEquals</item>
+          <item>%tree.filterMatchMode.displayed-values.in</item>
+          <item>%tree.filterMatchMode.displayed-values.notIn</item>
+          <item>%tree.filterMatchMode.displayed-values.between</item>
+          <item>%tree.filterMatchMode.displayed-values.notBetween</item>
+          <item>%tree.filterMatchMode.displayed-values.custom</item>
         </value>
       </trait>
     </entity>
