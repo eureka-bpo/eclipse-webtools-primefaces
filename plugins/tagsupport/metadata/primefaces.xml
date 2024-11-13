@@ -2434,6 +2434,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DateTimePatternType</value>
       </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">MM/dd/yyyy</value>
+      </trait>
     </entity>
     <entity id="locale">
       <trait id="attribute-value-runtime-type">
@@ -3622,6 +3625,9 @@
     <entity id="mode">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">client</value>
       </trait>
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
@@ -5070,6 +5076,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">submit</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>submit</item>
+          <item>button</item>
+          <item>reset</item>
+        </value>
       </trait>
     </entity>
     <entity id="style">
@@ -17499,6 +17512,19 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">dayGridMonth</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>dayGridMonth</item>
+          <item>dayGridWeek</item>
+          <item>dayGridDay</item>
+          <item>timeGridWeek</item>
+          <item>timeGridDay</item>
+          <item>listYear</item>
+          <item>listMonth</item>
+          <item>listWeek</item>
+          <item>listDay</item>
+        </value>
+      </trait>
     </entity>
     <entity id="initialDate">
       <trait id="attribute-value-runtime-type">
@@ -17551,26 +17577,88 @@
     </entity>
     <entity id="leftHeaderTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:StringValue">prev, next today</value>
+        <value xsi:type="mdt:StringValue">prev,next today</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>title</item>
+          <item>prev</item>
+          <item>next</item>
+          <item>prevYear</item>
+          <item>nextYear</item>
+          <item>today</item>
+          <item>viewName</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>title (Text of current month/week/day information)</item>
+          <item>prev (Button to move calendar back one month/week/day)</item>
+          <item>next (Button to move calendar forward one month/week/day)</item>
+          <item>prevYear (Button to move calendar back one year)</item>
+          <item>nextYear (Button to move calendar forward one year)</item>
+          <item>today (Button to move calendar to current month/week/day)</item>
+          <item>viewName (Button to change the view type based on the view type)</item>
+        </value>
       </trait>
     </entity>
     <entity id="centerHeaderTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">title</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>title</item>
+          <item>prev</item>
+          <item>next</item>
+          <item>prevYear</item>
+          <item>nextYear</item>
+          <item>today</item>
+          <item>viewName</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>title (Text of current month/week/day information)</item>
+          <item>prev (Button to move calendar back one month/week/day)</item>
+          <item>next (Button to move calendar forward one month/week/day)</item>
+          <item>prevYear (Button to move calendar back one year)</item>
+          <item>nextYear (Button to move calendar forward one year)</item>
+          <item>today (Button to move calendar to current month/week/day)</item>
+          <item>viewName (Button to change the view type based on the view type)</item>
+        </value>
+      </trait>
     </entity>
     <entity id="rightHeaderTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">dayGridMonth,timeGridWeek,timeGridDay</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>dayGridMonth</item>
+          <item>dayGridWeek</item>
+          <item>dayGridDay</item>
+          <item>timeGridWeek</item>
+          <item>timeGridDay</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>dayGridMonth</item>
+          <item>dayGridWeek</item>
+          <item>dayGridDay</item>
+          <item>timeGridWeek</item>
+          <item>timeGridDay</item>
+        </value>
       </trait>
     </entity>
     <entity id="allDaySlot">
@@ -25045,6 +25133,45 @@
     </entity>
   </entity>
   <entity id="datePicker" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>close</item>
+        <item>contextmenu</item>
+        <item>copy</item>
+        <item>cut</item>
+        <item>dateSelect</item>
+        <item>dblclick</item>
+        <item>drag</item>
+        <item>dragend</item>
+        <item>dragenter</item>
+        <item>dragleave</item>
+        <item>dragover</item>
+        <item>dragstart</item>
+        <item>drop</item>
+        <item>focus</item>
+        <item>input</item>
+        <item>invalid</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>paste</item>
+        <item>reset</item>
+        <item>scroll</item>
+        <item>search</item>
+        <item>select</item>
+        <item>valueChange</item>
+        <item>viewChange</item>
+        <item>wheel</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -25414,6 +25541,9 @@
     <entity id="pattern">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DateTimePatternType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">MM/dd/yy</value>
       </trait>
     </entity>
     <entity id="type">
