@@ -5956,7 +5956,36 @@
     </entity>
     <entity id="paginatorTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{FirstPageLink}</item>
+          <item>{LastPageLink}</item>
+          <item>{PreviousPageLink}</item>
+          <item>{NextPageLink}</item>
+          <item>{PageLinks}</item>
+          <item>{CurrentPageReport}</item>
+          <item>{RowsPerPageDropdown}</item>
+          <item>{JumpToPageDropdown}</item>
+          <item>{JumpToPageInput}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>FirstPageLink</item>
+          <item>LastPageLink</item>
+          <item>PreviousPageLink</item>
+          <item>NextPageLink</item>
+          <item>PageLinks</item>
+          <item>CurrentPageReport</item>
+          <item>RowsPerPageDropdown</item>
+          <item>JumpToPageDropdown</item>
+          <item>JumpToPageInput</item>
+        </value>
       </trait>
     </entity>
     <entity id="rowsPerPageTemplate">
@@ -5966,7 +5995,28 @@
     </entity>
     <entity id="currentPageReportTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{currentPage} of {totalPages}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{currentPage}</item>
+          <item>{totalPages}</item>
+          <item>{totalRecords}</item>
+          <item>{startRecord}</item>
+          <item>{endRecord}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>currentPage</item>
+          <item>totalPages</item>
+          <item>totalRecords</item>
+          <item>startRecord</item>
+          <item>endRecord</item>
+        </value>
       </trait>
     </entity>
     <entity id="pageLinks">
@@ -6173,7 +6223,36 @@
     </entity>
     <entity id="paginatorTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{FirstPageLink}</item>
+          <item>{LastPageLink}</item>
+          <item>{PreviousPageLink}</item>
+          <item>{NextPageLink}</item>
+          <item>{PageLinks}</item>
+          <item>{CurrentPageReport}</item>
+          <item>{RowsPerPageDropdown}</item>
+          <item>{JumpToPageDropdown}</item>
+          <item>{JumpToPageInput}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>FirstPageLink</item>
+          <item>LastPageLink</item>
+          <item>PreviousPageLink</item>
+          <item>NextPageLink</item>
+          <item>PageLinks</item>
+          <item>CurrentPageReport</item>
+          <item>RowsPerPageDropdown</item>
+          <item>JumpToPageDropdown</item>
+          <item>JumpToPageInput</item>
+        </value>
       </trait>
     </entity>
     <entity id="rowsPerPageTemplate">
@@ -6183,7 +6262,28 @@
     </entity>
     <entity id="currentPageReportTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{currentPage} of {totalPages}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{currentPage}</item>
+          <item>{totalPages}</item>
+          <item>{totalRecords}</item>
+          <item>{startRecord}</item>
+          <item>{endRecord}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>currentPage</item>
+          <item>totalPages</item>
+          <item>totalRecords</item>
+          <item>startRecord</item>
+          <item>endRecord</item>
+        </value>
       </trait>
     </entity>
     <entity id="pageLinks">
@@ -6498,7 +6598,36 @@
     </entity>
     <entity id="paginatorTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{FirstPageLink}</item>
+          <item>{LastPageLink}</item>
+          <item>{PreviousPageLink}</item>
+          <item>{NextPageLink}</item>
+          <item>{PageLinks}</item>
+          <item>{CurrentPageReport}</item>
+          <item>{RowsPerPageDropdown}</item>
+          <item>{JumpToPageDropdown}</item>
+          <item>{JumpToPageInput}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>FirstPageLink</item>
+          <item>LastPageLink</item>
+          <item>PreviousPageLink</item>
+          <item>NextPageLink</item>
+          <item>PageLinks</item>
+          <item>CurrentPageReport</item>
+          <item>RowsPerPageDropdown</item>
+          <item>JumpToPageDropdown</item>
+          <item>JumpToPageInput</item>
+        </value>
       </trait>
     </entity>
     <entity id="rowsPerPageTemplate">
@@ -6508,7 +6637,28 @@
     </entity>
     <entity id="currentPageReportTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{currentPage} of {totalPages}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{currentPage}</item>
+          <item>{totalPages}</item>
+          <item>{totalRecords}</item>
+          <item>{startRecord}</item>
+          <item>{endRecord}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>currentPage</item>
+          <item>totalPages</item>
+          <item>totalRecords</item>
+          <item>startRecord</item>
+          <item>endRecord</item>
+        </value>
       </trait>
     </entity>
     <entity id="pageLinks">
@@ -7208,7 +7358,36 @@
     </entity>
     <entity id="paginatorTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{FirstPageLink}</item>
+          <item>{LastPageLink}</item>
+          <item>{PreviousPageLink}</item>
+          <item>{NextPageLink}</item>
+          <item>{PageLinks}</item>
+          <item>{CurrentPageReport}</item>
+          <item>{RowsPerPageDropdown}</item>
+          <item>{JumpToPageDropdown}</item>
+          <item>{JumpToPageInput}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>FirstPageLink</item>
+          <item>LastPageLink</item>
+          <item>PreviousPageLink</item>
+          <item>NextPageLink</item>
+          <item>PageLinks</item>
+          <item>CurrentPageReport</item>
+          <item>RowsPerPageDropdown</item>
+          <item>JumpToPageDropdown</item>
+          <item>JumpToPageInput</item>
+        </value>
       </trait>
     </entity>
     <entity id="rowsPerPageTemplate">
@@ -7218,7 +7397,28 @@
     </entity>
     <entity id="currentPageReportTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{currentPage} of {totalPages}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{currentPage}</item>
+          <item>{totalPages}</item>
+          <item>{totalRecords}</item>
+          <item>{startRecord}</item>
+          <item>{endRecord}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>currentPage</item>
+          <item>totalPages</item>
+          <item>totalRecords</item>
+          <item>startRecord</item>
+          <item>endRecord</item>
+        </value>
       </trait>
     </entity>
     <entity id="pageLinks">
@@ -23805,7 +24005,36 @@
     </entity>
     <entity id="paginatorTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{FirstPageLink}</item>
+          <item>{LastPageLink}</item>
+          <item>{PreviousPageLink}</item>
+          <item>{NextPageLink}</item>
+          <item>{PageLinks}</item>
+          <item>{CurrentPageReport}</item>
+          <item>{RowsPerPageDropdown}</item>
+          <item>{JumpToPageDropdown}</item>
+          <item>{JumpToPageInput}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>FirstPageLink</item>
+          <item>LastPageLink</item>
+          <item>PreviousPageLink</item>
+          <item>NextPageLink</item>
+          <item>PageLinks</item>
+          <item>CurrentPageReport</item>
+          <item>RowsPerPageDropdown</item>
+          <item>JumpToPageDropdown</item>
+          <item>JumpToPageInput</item>
+        </value>
       </trait>
     </entity>
     <entity id="rowsPerPageTemplate">
@@ -23815,7 +24044,28 @@
     </entity>
     <entity id="currentPageReportTemplate">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">{currentPage} of {totalPages}</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>{currentPage}</item>
+          <item>{totalPages}</item>
+          <item>{totalRecords}</item>
+          <item>{startRecord}</item>
+          <item>{endRecord}</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>currentPage</item>
+          <item>totalPages</item>
+          <item>totalRecords</item>
+          <item>startRecord</item>
+          <item>endRecord</item>
+        </value>
       </trait>
     </entity>
     <entity id="pageLinks">
