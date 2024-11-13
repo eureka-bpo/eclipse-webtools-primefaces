@@ -4148,6 +4148,12 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>asc</item>
+          <item>desc</item>
+        </value>
+      </trait>
     </entity>
     <entity id="nullSortOrder">
       <trait id="attribute-value-runtime-type">
@@ -4155,6 +4161,18 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>1</item>
+          <item>-1</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>1 (null values are placed at the end in ascending mode and at beginning in descending mode)</item>
+          <item>-1 (null values are placed at beginning in ascending mode and at the end in descending mode)</item>
+        </value>
       </trait>
     </entity>
     <entity id="sortPriority">
@@ -4522,6 +4540,12 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>asc</item>
+          <item>desc</item>
+        </value>
+      </trait>
     </entity>
     <entity id="sortPriority">
       <trait id="attribute-value-runtime-type">
@@ -4542,6 +4566,18 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>1</item>
+          <item>-1</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>1 (null values are placed at the end in ascending mode and at beginning in descending mode)</item>
+          <item>-1 (null values are placed at beginning in ascending mode and at the end in descending mode)</item>
+        </value>
       </trait>
     </entity>
     <entity id="caseSensitiveSort">
@@ -6772,6 +6808,13 @@
           <item>new</item>
           <item>add</item>
           <item>none</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>clear previous selection</item>
+          <item>keep previous selection</item>
+          <item>disable row selection</item>
         </value>
       </trait>
     </entity>
@@ -9369,6 +9412,12 @@
     <entity id="sortOrder">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>asc</item>
+          <item>desc</item>
+        </value>
       </trait>
     </entity>
     <entity id="style">
