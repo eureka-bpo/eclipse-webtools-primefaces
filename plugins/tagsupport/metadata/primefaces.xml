@@ -798,6 +798,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -810,21 +813,6 @@
     <entity id="required">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
-      </trait>
-    </entity>
-    <entity id="validator">
-      <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
-      </trait>
-      <trait id="runtime-return-type">
-        <value xsi:type="mdt:StringValue">void</value>
-      </trait>
-      <trait id="runtime-param-types">
-        <value xsi:type="mdt:ListOfValues">
-          <item>jakarta.faces.context.FacesContext</item>
-          <item>jakarta.faces.component.UIComponent</item>
-          <item>java.lang.Object</item>
-        </value>
       </trait>
     </entity>
     <entity id="validator">
@@ -2078,6 +2066,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -2090,21 +2081,6 @@
     <entity id="required">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
-      </trait>
-    </entity>
-    <entity id="validator">
-      <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
-      </trait>
-      <trait id="runtime-return-type">
-        <value xsi:type="mdt:StringValue">void</value>
-      </trait>
-      <trait id="runtime-param-types">
-        <value xsi:type="mdt:ListOfValues">
-          <item>jakarta.faces.context.FacesContext</item>
-          <item>jakarta.faces.component.UIComponent</item>
-          <item>java.lang.Object</item>
-        </value>
       </trait>
     </entity>
     <entity id="validator">
@@ -2858,6 +2834,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -3239,6 +3218,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -3711,6 +3693,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -4458,7 +4443,10 @@
     </entity>
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
   </entity>
@@ -4835,7 +4823,10 @@
     </entity>
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
   </entity>
@@ -7666,6 +7657,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -8566,6 +8560,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -9950,6 +9947,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -10382,6 +10382,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -10762,6 +10765,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -11244,6 +11250,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -11390,6 +11399,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -11761,6 +11773,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -12165,6 +12180,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -12672,6 +12690,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -14340,6 +14361,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -14569,6 +14593,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -15013,6 +15040,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
   </entity>
@@ -15533,6 +15563,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -15968,6 +16001,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -16152,6 +16188,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -16852,6 +16891,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -17882,6 +17924,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -18047,6 +18092,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -18209,6 +18257,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -18521,6 +18572,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -18649,6 +18703,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -18820,6 +18877,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -19068,6 +19128,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -19205,6 +19268,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -19435,6 +19501,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -19784,6 +19853,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -20104,6 +20176,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -20553,6 +20628,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -22247,6 +22325,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -23015,6 +23096,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -23232,6 +23316,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -24380,6 +24467,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="immediate">
       <trait id="attribute-value-runtime-type">
@@ -25198,6 +25288,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
@@ -26269,6 +26362,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
       </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
+      </trait>
     </entity>
     <entity id="severity">
       <trait id="attribute-value-runtime-type">
@@ -26868,6 +26964,9 @@
     <entity id="converter">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType</value>
+      </trait>
+      <trait id="config-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.convert.Converter</value>
       </trait>
     </entity>
     <entity id="immediate">
