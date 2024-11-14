@@ -7882,6 +7882,7 @@
           <item>clip</item>
           <item>drop</item>
           <item>explode</item>
+          <item>fade</item>
           <item>fold</item>
           <item>highlight</item>
           <item>puff</item>
@@ -7890,6 +7891,7 @@
           <item>shake</item>
           <item>size</item>
           <item>slide</item>
+          <item>transfer</item>
         </value>
       </trait>
     </entity>
@@ -7898,12 +7900,13 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
       <trait id="valid-values">
-        <value xsi:type="mdt:ListOfValues">
+         <value xsi:type="mdt:ListOfValues">
           <item>blind</item>
           <item>bounce</item>
           <item>clip</item>
           <item>drop</item>
           <item>explode</item>
+          <item>fade</item>
           <item>fold</item>
           <item>highlight</item>
           <item>puff</item>
@@ -7912,6 +7915,7 @@
           <item>shake</item>
           <item>size</item>
           <item>slide</item>
+          <item>transfer</item>
         </value>
       </trait>
     </entity>
@@ -7925,10 +7929,28 @@
     </entity>
     <entity id="position">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.TemplateType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">center</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>center</item>
+          <item>left</item>
+          <item>right</item>
+          <item>top</item>
+          <item>bottom</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>center</item>
+          <item>left</item>
+          <item>right</item>
+          <item>top</item>
+          <item>bottom</item>
+        </value>
       </trait>
     </entity>
     <entity id="closable">
