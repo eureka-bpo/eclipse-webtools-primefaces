@@ -771,6 +771,48 @@
         <item>itemtip</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>clear</item>
+        <item>click</item>
+        <item>contextmenu</item>
+        <item>copy</item>
+        <item>cut</item>
+        <item>dblclick</item>
+        <item>drag</item>
+        <item>dragend</item>
+        <item>dragenter</item>
+        <item>dragleave</item>
+        <item>dragover</item>
+        <item>dragstart</item>
+        <item>drop</item>
+        <item>focus</item>
+        <item>input</item>
+        <item>invalid</item>
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>moreTextSelect</item>
+        <item>emptyMessageSelect</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>paste</item>
+        <item>query</item>
+        <item>reset</item>
+        <item>scroll</item>
+        <item>search</item>
+        <item>select</item>
+        <item>valueChange</item>
+        <item>wheel</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -1171,6 +1213,37 @@
     <entity id="scrollHeight">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+    </entity>
+    <entity id="effect">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blind</item>
+          <item>clip</item>
+          <item>drop</item>
+          <item>explode</item>
+          <item>fold</item>
+          <item>puff</item>
+          <item>slide</item>
+          <item>scale</item>
+          <item>bounce</item>
+          <item>highlight</item>
+          <item>pulsate</item>
+          <item>shake</item>
+          <item>size</item>
+          <item>transfer</item>
+        </value>
+      </trait>
+    </entity>
+    <entity id="effectDuration">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">400</value>
       </trait>
     </entity>
     <entity id="dropdown">
