@@ -206,7 +206,7 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">@this</value>
@@ -214,7 +214,10 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="onstart">
@@ -5021,12 +5024,18 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="onstart">
@@ -5376,12 +5385,18 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="onstart">
@@ -8731,12 +8746,18 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="global">
@@ -9812,12 +9833,18 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="handler">
@@ -13983,12 +14010,18 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="onstart">
@@ -16171,12 +16204,18 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="listener">
@@ -16645,7 +16684,10 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="listener">
@@ -16680,7 +16722,10 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="onerror">
@@ -17155,12 +17200,18 @@
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="onstart">
@@ -21222,12 +21273,18 @@
     </entity>
     <entity id="process">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@all</value>
       </trait>
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@none</value>
       </trait>
     </entity>
     <entity id="onstart">
