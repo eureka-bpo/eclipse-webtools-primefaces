@@ -8102,6 +8102,13 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">bottom</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>dock</item>
+          <item>bottom</item>
+          <item>top</item>
+        </value>
+      </trait>
     </entity>
     <entity id="halign">
       <trait id="attribute-value-runtime-type">
@@ -8109,6 +8116,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">center</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>left</item>
+          <item>center</item>
+          <item>right</item>
+        </value>
       </trait>
     </entity>
     <entity id="blockScroll">
@@ -9669,7 +9683,7 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
       <trait id="default-value">
-        <value xsi:type="mdt:IntegerValue">800</value>
+        <value xsi:type="mdt:IntegerValue">6000</value>
       </trait>
     </entity>
     <entity id="redisplay">
@@ -9699,6 +9713,15 @@
     <entity id="severity">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>info</item>
+          <item>error</item>
+          <item>warn</item>
+          <item>fatal</item>
+          <item>all</item>
+        </value>
       </trait>
     </entity>
     <entity id="keepAlive">
