@@ -18232,6 +18232,25 @@
     </entity>
   </entity>
   <entity id="selectBooleanButton" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>dblclick</item>
+        <item>focus</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>select</item>
+        <item>valueChange</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -18552,6 +18571,14 @@
     </entity>
   </entity>
   <entity id="selectCheckboxMenu" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>change</item>
+        <item>itemSelect</item>
+        <item>itemUnselect</item>
+        <item>toggleSelect</item>
+      </value>
+    </trait>
     <trait id="valid-facets">
       <value xsi:type="mdt:ListOfValues">
         <item>header</item>
@@ -19012,6 +19039,25 @@
         <item>custom</item>
       </value>
     </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>dblclick</item>
+        <item>focus</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>select</item>
+        <item>valueChange</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -19182,8 +19228,22 @@
   <entity id="selectManyMenu" type="tag">
     <trait id="valid-ajax-events">
       <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>dblclick</item>
+        <item>focus</item>
         <item>itemSelect</item>
         <item>itemUnselect</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>valueChange</item>
       </value>
     </trait>
     <entity id="id">
@@ -19573,8 +19633,22 @@
   <entity id="selectOneListbox" type="tag">
     <trait id="valid-ajax-events">
       <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>dblclick</item>
+        <item>focus</item>
         <item>itemSelect</item>
         <item>itemUnselect</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>valueChange</item>
       </value>
     </trait>
     <entity id="id">
@@ -19808,6 +19882,26 @@
       <value xsi:type="mdt:ListOfValues">
         <item>header</item>
         <item>footer</item>
+      </value>
+    </trait>
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>dblclick</item>
+        <item>focus</item>
+        <item>itemSelect</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>select</item>
+        <item>valueChange</item>
       </value>
     </trait>
     <entity id="id">
