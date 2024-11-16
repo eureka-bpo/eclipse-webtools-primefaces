@@ -578,9 +578,6 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
   </entity>
   <entity id="ajaxExceptionHandler" type="tag">
@@ -5900,9 +5897,6 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="touchable">
       <trait id="attribute-value-runtime-type">
@@ -7307,9 +7301,6 @@
     <entity id="stickyTopAt">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="globalFilterFunction">
@@ -9902,9 +9893,6 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
@@ -11428,9 +11416,6 @@
     <entity id="caretPositionOnFocus">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
   </entity>
@@ -14387,9 +14372,6 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
   </entity>
   <entity id="message" type="tag">
@@ -15456,9 +15438,6 @@
     <entity id="loaded">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
   </entity>
@@ -16963,9 +16942,6 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="timeout">
       <trait id="attribute-value-runtime-type">
@@ -17455,9 +17431,6 @@
     <entity id="delay">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="timeout">
@@ -21403,16 +21376,10 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="downButtonStyleClass">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="modifyValueOnWheel">
@@ -23178,24 +23145,12 @@
       </trait>
     </entity>
     <entity id="start">
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="end">
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="min">
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="max">
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="zoomKey">
       <trait id="attribute-value-runtime-type">
@@ -23258,9 +23213,6 @@
     <entity id="eventStyle">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="groupsOrder">
@@ -23333,32 +23285,20 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="dropActiveStyleClass">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="dropAccept">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
-      </trait>
     </entity>
     <entity id="dropScope">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
     <entity id="clickToUse">
@@ -27587,9 +27527,6 @@
     <entity id="badge">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
-      </trait>
-      <trait id="default-value">
-        <value xsi:type="mdt:StringValue">null</value>
       </trait>
     </entity>
   </entity>
