@@ -3248,7 +3248,7 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -5845,7 +5845,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="style">
@@ -8198,7 +8201,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -8366,7 +8372,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="disabled">
@@ -8478,7 +8487,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@parent</value>
       </trait>
     </entity>
     <entity id="speed">
@@ -9034,7 +9046,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@next</value>
       </trait>
     </entity>
     <entity id="context">
@@ -9676,7 +9691,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="escape">
@@ -12928,7 +12946,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="regEx">
@@ -14410,7 +14431,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="redisplay">
@@ -14523,7 +14547,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="escape">
@@ -15252,7 +15279,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@next</value>
       </trait>
     </entity>
     <entity id="lang">
@@ -15472,7 +15502,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="blockScroll">
@@ -17159,7 +17192,7 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
       </trait>
     </entity>
     <entity id="style">
@@ -17512,7 +17545,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="aspectRatio">
@@ -20781,7 +20817,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="display">
@@ -23744,7 +23783,10 @@
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.SearchExpressionType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">@previous</value>
       </trait>
     </entity>
     <entity id="style">
