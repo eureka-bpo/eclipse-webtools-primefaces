@@ -21034,6 +21034,42 @@
     </entity>
   </entity>
   <entity id="spinner" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>blur</item>
+        <item>change</item>
+        <item>click</item>
+        <item>contextmenu</item>
+        <item>copy</item>
+        <item>cut</item>
+        <item>dblclick</item>
+        <item>drag</item>
+        <item>dragend</item>
+        <item>dragenter</item>
+        <item>dragleave</item>
+        <item>dragover</item>
+        <item>dragstart</item>
+        <item>drop</item>
+        <item>focus</item>
+        <item>input</item>
+        <item>invalid</item>
+        <item>keydown</item>
+        <item>keypress</item>
+        <item>keyup</item>
+        <item>mousedown</item>
+        <item>mousemove</item>
+        <item>mouseout</item>
+        <item>mouseover</item>
+        <item>mouseup</item>
+        <item>paste</item>
+        <item>reset</item>
+        <item>scroll</item>
+        <item>search</item>
+        <item>select</item>
+        <item>valueChange</item>
+        <item>wheel</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -22001,6 +22037,11 @@
     </entity>
   </entity>
   <entity id="staticMessage" type="tag">
+    <trait id="valid-ajax-events">
+      <value xsi:type="mdt:ListOfValues">
+        <item>close</item>
+      </value>
+    </trait>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType</value>
@@ -22046,6 +22087,13 @@
           <item>text</item>
           <item>icon</item>
           <item>both</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%staticMessage.display.displayed-values.text</item>
+          <item>%staticMessage.display.displayed-values.icon</item>
+          <item>%staticMessage.display.displayed-values.both</item>
         </value>
       </trait>
     </entity>
@@ -27517,6 +27565,14 @@
     <entity id="type">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>linear</item>
+          <item>circle</item>
+          <item>semi-circle</item>
+          <item>quarter-circle</item>
+        </value>
       </trait>
     </entity>
     <entity id="radius">
