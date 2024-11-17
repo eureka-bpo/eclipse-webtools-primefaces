@@ -257,7 +257,7 @@
     </entity>
     <entity id="event">
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">eu.eureka-bpo.eclipse.webtools.primefaces.tagsupport.attributevalues.AjaxType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.AjaxEventType</value>
       </trait>
     </entity>
     <entity id="partialSubmit">

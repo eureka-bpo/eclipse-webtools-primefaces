@@ -11,9 +11,6 @@
    </extension>
    <extension point="org.eclipse.jst.jsf.core.AttributeValueRuntimeTypes">
       <attributeValueRuntimeType
-            class="eu.eurekabpo.eclipse.webtools.primefaces.taglibprocessing.attributevalues.AjaxType"
-            id="attributevalues.AjaxType"/>
-      <attributeValueRuntimeType
             class="eu.eurekabpo.eclipse.webtools.primefaces.taglibprocessing.attributevalues.TemplateType"
             id="attributevalues.TemplateType"/>
    </extension>
