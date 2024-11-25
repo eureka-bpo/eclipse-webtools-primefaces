@@ -1320,6 +1320,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">blank</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>blank</item>
+          <item>current</item>
+        </value>
+      </trait>
     </entity>
     <entity id="autoHighlight">
       <trait id="attribute-value-runtime-type">
@@ -4106,6 +4112,13 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">auto</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>auto</item>
+          <item>light</item>
+          <item>dark</item>
+        </value>
       </trait>
     </entity>
     <entity id="format">
@@ -10241,6 +10254,14 @@
       <trait id="default-value">
         <value xsi:type="mdt:IntegerValue">1</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>0</item>
+          <item>1</item>
+          <item>2</item>
+          <item>3</item>
+        </value>
+      </trait>
     </entity>
     <entity id="cache">
       <trait id="attribute-value-runtime-type">
@@ -10500,6 +10521,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">output</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>output</item>
+          <item>input</item>
+        </value>
       </trait>
     </entity>
     <entity id="tabindex">
@@ -11389,6 +11416,15 @@
     <entity id="inputmode">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">numeric</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>numeric</item>
+          <item>decimal</item>
+        </value>
       </trait>
     </entity>
     <entity id="inputStyle">
@@ -12842,6 +12878,13 @@
     <entity id="showMode">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>focus</item>
+          <item>button</item>
+          <item>both</item>
+        </value>
       </trait>
     </entity>
     <entity id="buttonImage">
@@ -24598,6 +24641,12 @@
     <entity id="expandMode">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>children</item>
+          <item>self</item>
+        </value>
       </trait>
     </entity>
     <entity id="exportTag">
