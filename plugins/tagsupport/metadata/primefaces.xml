@@ -4351,6 +4351,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">bottom</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>bottom</item>
+          <item>top</item>
+        </value>
+      </trait>
     </entity>
     <entity id="filterPlaceholder">
       <trait id="attribute-value-runtime-type">
