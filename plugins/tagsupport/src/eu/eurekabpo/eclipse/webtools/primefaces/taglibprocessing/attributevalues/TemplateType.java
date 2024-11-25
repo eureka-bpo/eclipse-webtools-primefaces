@@ -11,7 +11,12 @@ import org.eclipse.jst.jsf.taglibprocessing.attributevalues.StringType;
 public class TemplateType extends StringType {
 
 	@Override
-	public List getPossibleValues() {
+	public boolean isValidValue(String value) {
+		return true;
+	}
+
+	@Override
+	public List<PossibleValue> getPossibleValues() {
 		List<PossibleValue> possibleValues = super.getPossibleValues();
 		String currentValue = getCurrentAttrValue();
 		return possibleValues.stream()
