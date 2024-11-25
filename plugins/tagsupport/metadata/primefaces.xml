@@ -26412,6 +26412,7 @@
       <trait id="valid-values">
         <value xsi:type="mdt:ListOfValues">
           <item>date</item>
+          <item>week</item>
           <item>month</item>
         </value>
       </trait>
