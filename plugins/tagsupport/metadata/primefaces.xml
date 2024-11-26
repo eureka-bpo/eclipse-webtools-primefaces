@@ -23298,6 +23298,14 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">bottom</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+          <item>both</item>
+          <item>none</item>
+        </value>
+      </trait>
     </entity>
     <entity id="orientationItem">
       <trait id="attribute-value-runtime-type">
@@ -23305,6 +23313,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">bottom</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>top</item>
+          <item>bottom</item>
+        </value>
       </trait>
     </entity>
     <entity id="editable">
@@ -23391,6 +23405,14 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>altKey</item>
+          <item>ctrlKey</item>
+          <item>shiftKey</item>
+          <item>metaKey</item>
+        </value>
+      </trait>
     </entity>
     <entity id="zoomMin">
       <trait id="attribute-value-runtime-type">
@@ -23448,6 +23470,13 @@
     <entity id="eventStyle">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>box</item>
+          <item>point</item>
+          <item>range</item>
+        </value>
       </trait>
     </entity>
     <entity id="groupsOrder">
