@@ -23574,6 +23574,13 @@
           <item>none</item>
         </value>
       </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>%timeline.tooltipOverflowMethod.displayed-values.cap</item>
+          <item>%timeline.tooltipOverflowMethod.displayed-values.flip</item>
+          <item>%timeline.tooltipOverflowMethod.displayed-values.none</item>
+        </value>
+      </trait>
     </entity>
     <entity id="tooltipDelay">
       <trait id="attribute-value-runtime-type">
