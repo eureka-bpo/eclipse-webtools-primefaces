@@ -709,6 +709,13 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>mp4</item>
+          <item>ogg</item>
+          <item>webm</item>
+        </value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -25244,6 +25251,13 @@
     <entity id="preload">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>none</item>
+          <item>auto</item>
+          <item>metadata</item>
+        </value>
       </trait>
     </entity>
     <entity id="poster">
