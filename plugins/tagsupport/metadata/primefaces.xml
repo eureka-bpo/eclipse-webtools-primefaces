@@ -445,6 +445,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -595,6 +598,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="onexception">
       <trait id="attribute-value-runtime-type">
@@ -635,6 +641,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -695,6 +704,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -833,6 +845,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -1487,6 +1502,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="type">
       <trait id="attribute-value-runtime-type">
@@ -1739,6 +1757,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -1798,6 +1819,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -1877,6 +1901,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -2099,6 +2126,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -2138,6 +2168,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -2907,6 +2940,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -3050,6 +3086,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -3213,6 +3252,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="disabled">
       <trait id="attribute-value-runtime-type">
@@ -3234,6 +3276,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -3291,6 +3336,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -3679,6 +3727,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -3766,6 +3817,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -4222,6 +4276,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="sortBy">
       <trait id="attribute-value-runtime-type">
@@ -4578,6 +4635,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="type">
       <trait id="attribute-value-runtime-type">
@@ -4605,6 +4665,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -4964,6 +5027,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -5007,6 +5073,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -5369,6 +5438,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -5708,6 +5780,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -5874,6 +5949,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -5967,6 +6045,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -6037,6 +6118,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -6290,6 +6374,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -6533,6 +6620,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -6684,6 +6774,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -7440,6 +7533,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -7661,6 +7757,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
@@ -7686,6 +7785,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
   </entity>
   <entity id="defaultCommand" type="tag">
@@ -7702,6 +7804,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -7751,6 +7856,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="id">
       <trait id="attribute-value-runtime-type">
@@ -7765,6 +7873,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -7838,6 +7949,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -8128,6 +8242,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -8225,7 +8342,10 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
-    </entity>
+       <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
+   </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
@@ -8409,6 +8529,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -8489,6 +8612,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -8580,6 +8706,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="required">
@@ -8627,6 +8756,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -8714,6 +8846,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -9088,6 +9223,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="for">
       <trait id="attribute-value-runtime-type">
@@ -9123,6 +9261,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="update">
       <trait id="attribute-value-runtime-type">
@@ -9157,6 +9298,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -9348,6 +9492,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -9477,6 +9624,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="maxWidth">
       <trait id="attribute-value-runtime-type">
@@ -9501,6 +9651,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -9680,6 +9833,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -9796,6 +9952,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="field">
       <trait id="attribute-value-runtime-type">
@@ -9864,6 +10023,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="actionListener">
@@ -10028,6 +10190,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -10072,6 +10237,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -10124,6 +10292,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -10324,6 +10495,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -10438,6 +10612,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -10609,6 +10786,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -11029,6 +11209,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -11520,6 +11703,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -11705,6 +11891,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -12115,6 +12304,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -12558,6 +12750,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -13016,6 +13211,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -13078,6 +13276,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -13265,6 +13466,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -13286,6 +13490,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -13499,6 +13706,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -13736,6 +13946,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -13757,6 +13970,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -13832,6 +14048,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -13917,6 +14136,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -14018,6 +14240,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -14113,6 +14338,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -14228,6 +14456,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -14482,6 +14713,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -14581,6 +14815,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -14710,6 +14947,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -14757,6 +14997,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -14905,6 +15148,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -14990,6 +15236,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -15205,6 +15454,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -15258,6 +15510,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="type">
@@ -15318,6 +15573,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -15484,6 +15742,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -15555,6 +15816,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -15714,6 +15978,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -15854,6 +16121,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="columns">
       <trait id="attribute-value-runtime-type">
@@ -15914,6 +16184,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -15962,6 +16235,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -16401,6 +16677,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -16594,6 +16873,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -16953,6 +17235,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -17133,6 +17418,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -17238,6 +17526,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -17300,6 +17591,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -17441,6 +17735,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -17602,6 +17899,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -17797,6 +18097,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -17829,6 +18132,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="style">
@@ -17872,6 +18178,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="styleClass">
       <trait id="attribute-value-runtime-type">
@@ -17893,6 +18202,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="expandLabel">
@@ -17937,6 +18249,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -18302,6 +18617,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -18357,6 +18675,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -18525,6 +18846,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -18699,6 +19023,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -19014,6 +19341,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -19164,6 +19494,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -19352,6 +19685,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -19603,6 +19939,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -19757,6 +20096,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -20010,6 +20352,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -20362,6 +20707,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -20548,6 +20896,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="title">
       <trait id="attribute-value-runtime-type">
@@ -20586,6 +20937,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -20685,6 +21039,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -20892,6 +21249,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -20968,6 +21328,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -21099,6 +21462,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="width">
       <trait id="attribute-value-runtime-type">
@@ -21176,6 +21542,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -21629,6 +21998,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -22058,6 +22430,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -22094,6 +22469,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -22148,6 +22526,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="summary">
@@ -22229,6 +22610,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -22286,6 +22670,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -22323,6 +22710,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="label">
@@ -22377,6 +22767,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -22420,6 +22813,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="listener">
       <trait id="attribute-value-runtime-type">
@@ -22446,6 +22842,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="title">
@@ -22503,6 +22902,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -22573,6 +22975,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -22785,6 +23190,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -22826,6 +23234,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -22884,6 +23295,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -23057,6 +23471,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -23197,6 +23614,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -23665,6 +24085,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -23818,6 +24241,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -23844,6 +24270,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="align">
@@ -23885,6 +24314,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -24114,6 +24546,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -24480,6 +24915,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="type">
       <trait id="attribute-value-runtime-type">
@@ -24554,6 +24992,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25045,6 +25486,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -25207,6 +25651,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="value">
       <trait id="attribute-value-runtime-type">
@@ -25332,6 +25779,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25474,6 +25924,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -25531,6 +25984,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -25568,6 +26024,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25607,6 +26066,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -25644,6 +26106,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25683,6 +26148,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -25720,6 +26188,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25759,6 +26230,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -25796,6 +26270,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -25873,6 +26350,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -26690,6 +27170,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="label">
       <trait id="attribute-value-runtime-type">
@@ -26796,6 +27279,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -26822,6 +27308,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -26900,6 +27389,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -26956,6 +27448,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -27015,6 +27510,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="shape">
       <trait id="attribute-value-runtime-type">
@@ -27066,6 +27564,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="align">
@@ -27130,6 +27631,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="widgetVar">
       <trait id="attribute-value-runtime-type">
@@ -27192,6 +27696,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -27270,6 +27777,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="size">
       <trait id="attribute-value-runtime-type">
@@ -27322,6 +27832,9 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
       </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
+      </trait>
     </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
@@ -27373,6 +27886,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -27448,6 +27964,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="widgetVar">
@@ -27559,6 +28078,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="value">
@@ -27675,6 +28197,9 @@
     <entity id="binding">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType</value>
+      </trait>
+      <trait id="runtime-return-type">
+        <value xsi:type="mdt:StringValue">jakarta.faces.component.UIComponent</value>
       </trait>
     </entity>
     <entity id="ariaLabel">
