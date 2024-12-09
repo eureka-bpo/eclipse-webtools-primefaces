@@ -8627,7 +8627,7 @@
         <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
       <trait id="attribute-value-runtime-type">
-        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.AjaxEventType</value>
       </trait>
     </entity>
     <entity id="type">
