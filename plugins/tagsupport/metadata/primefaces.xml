@@ -63,6 +63,16 @@
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>xls</item>
+          <item>xlsx</item>
+          <item>xlsxstream</item>
+          <item>pdf</item>
+          <item>csv</item>
+          <item>xml</item>
+        </value>
+      </trait>
     </entity>
     <entity id="fileName">
       <trait id="required">
@@ -320,6 +330,15 @@
     <entity id="type">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">dialog</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>dialog</item>
+          <item>popup</item>
+        </value>
       </trait>
     </entity>
     <entity id="header">
@@ -9518,6 +9537,14 @@
       </trait>
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>roadmap</item>
+          <item>satellite</item>
+          <item>hybrid</item>
+          <item>terrain</item>
+        </value>
       </trait>
     </entity>
     <entity id="center">
@@ -21391,6 +21418,12 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">horizontal</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>horizontal</item>
+          <item>vertical</item>
+        </value>
       </trait>
     </entity>
     <entity id="step">
