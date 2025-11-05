@@ -481,6 +481,14 @@
         <value xsi:type="mdt:StringValue">0</value>
       </trait>
     </entity>
+    <entity id="active">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">0</value>
+      </trait>
+    </entity>
     <entity id="style">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType</value>
@@ -2912,6 +2920,14 @@
         <value xsi:type="mdt:IntegerValue">0</value>
       </trait>
     </entity>
+    <entity id="defaultMillisecond">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">0</value>
+      </trait>
+    </entity>
     <entity id="resolverStyle">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
@@ -4549,6 +4565,11 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
       </trait>
     </entity>
+    <entity id="priority">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+    </entity>
     <entity id="responsivePriority">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
@@ -4933,6 +4954,11 @@
     <entity id="field">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+    </entity>
+    <entity id="priority">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
       </trait>
     </entity>
     <entity id="responsivePriority">
@@ -7182,9 +7208,36 @@
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
       </trait>
     </entity>
+    <entity id="disabledSelection">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+    </entity>
     <entity id="selectionDisabled">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+    </entity>
+    <entity id="rowSelectMode">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:StringValue">new</value>
+      </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>new</item>
+          <item>add</item>
+          <item>none</item>
+        </value>
+      </trait>
+      <trait id="displayed-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>clear previous selection</item>
+          <item>keep previous selection</item>
+          <item>disable row selection</item>
+        </value>
       </trait>
     </entity>
     <entity id="selectionRowMode">
@@ -7252,6 +7305,14 @@
       </trait>
       <trait id="default-value">
         <value xsi:type="mdt:BooleanValue">false</value>
+      </trait>
+    </entity>
+    <entity id="disabledTextSelection">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
     <entity id="selectionTextDisabled">
@@ -9073,6 +9134,14 @@
         <value xsi:type="mdt:BooleanValue">true</value>
       </trait>
     </entity>
+    <entity id="dragDrop">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:BooleanValue">true</value>
+      </trait>
+    </entity>
     <entity id="onupload">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType</value>
@@ -9166,6 +9235,22 @@
       </trait>
     </entity>
     <entity id="validateContentType">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:BooleanValue">false</value>
+      </trait>
+    </entity>
+    <entity id="contentType">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:BooleanValue">false</value>
+      </trait>
+    </entity>
+    <entity id="performVirusScan">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
       </trait>
@@ -14312,6 +14397,14 @@
           <item>hover</item>
           <item>click</item>
         </value>
+      </trait>
+    </entity>
+    <entity id="delay">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+      <trait id="default-value">
+        <value xsi:type="mdt:IntegerValue">0</value>
       </trait>
     </entity>
     <entity id="showDelay">
@@ -25350,6 +25443,11 @@
     <entity id="first">
       <trait id="attribute-value-runtime-type">
         <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType</value>
+      </trait>
+    </entity>
+    <entity id="filteredNode">
+      <trait id="attribute-value-runtime-type">
+        <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ObjectType</value>
       </trait>
     </entity>
     <entity id="filteredValue">
