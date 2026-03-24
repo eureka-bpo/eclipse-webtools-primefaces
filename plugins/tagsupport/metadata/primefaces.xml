@@ -5851,6 +5851,12 @@
       <trait id="default-value">
         <value xsi:type="mdt:StringValue">alert</value>
       </trait>
+      <trait id="valid-values">
+        <value xsi:type="mdt:ListOfValues">
+          <item>alert</item>
+          <item>info</item>
+        </value>
+      </trait>
     </entity>
     <entity id="width">
       <trait id="attribute-value-runtime-type">
@@ -5907,6 +5913,7 @@
           <item>clip</item>
           <item>drop</item>
           <item>explode</item>
+          <item>fade</item>
           <item>fold</item>
           <item>highlight</item>
           <item>puff</item>
@@ -5929,6 +5936,7 @@
           <item>clip</item>
           <item>drop</item>
           <item>explode</item>
+          <item>fade</item>
           <item>fold</item>
           <item>highlight</item>
           <item>puff</item>
